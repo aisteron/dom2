@@ -118,7 +118,7 @@
 function tabs()
 {
 
-
+				/*получаем индекс радиокнопки*/
 				var Radio = $(".chars input[name='group']");
 				var indexRadio = Radio.index(Radio.filter(':checked')) +1;
 
@@ -161,6 +161,16 @@ function tabs()
 	});
 }
 
+function thumbs(){
+	$('.thumbs img').click(function(){
+
+		var str = $(this).attr('src').slice(0,19);
+		str += $(this).attr('src').slice(26,36).replace('/','-');
+		console.log(str);
+		$('.modal-body img').first().attr('src', str);
+	})
+}
+
 /*управление радиокнопками*/
 function radio() {
 
@@ -175,6 +185,8 @@ function radio() {
 
 				setTimeout(radio, 100);
 				setTimeout(tabs, 100);
+				setTimeout(thumbs, 100);
+				
 			})
 
 		}
@@ -184,7 +196,7 @@ function radio() {
 		
 		$('.modal').load('sections/solutions #m0'+divIndex+'-r1', function(){
 		tabs();
-			
+		thumbs();	
 
 		});
 
