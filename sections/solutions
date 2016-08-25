@@ -25,7 +25,7 @@
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
 			</div>
-			<img data-src="img/section6/01/r1/thumbs/t1/001.jpg" class="lazyload">
+			<img data-src="img/section6/01/r1/thumbs/t1/001.jpg" class="lazyload active">
 			<img data-src="img/section6/01/r1/thumbs/t1/002.jpg" class="lazyload">
 			<img data-src="img/section6/01/r1/thumbs/t1/003.jpg" class="lazyload">
 			<img data-src="img/section6/01/r1/thumbs/t1/004.jpg" class="lazyload">

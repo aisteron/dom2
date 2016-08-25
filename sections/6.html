@@ -157,6 +157,10 @@ function tabs()
 						}
 					}
 
+					/*стиль к картинке*/
+
+					$('.thumbs img').first().addClass('active');
+
 
 	});
 }
@@ -168,6 +172,10 @@ function thumbs(){
 		str += $(this).attr('src').slice(26,36).replace('/','-');
 		console.log(str);
 		$('.modal-body img').first().attr('src', str);
+		
+		/*стили*/
+		$('.thumbs img').removeClass('active');
+		$(this).addClass('active');
 	})
 }
 
@@ -186,6 +194,10 @@ function radio() {
 				setTimeout(radio, 100);
 				setTimeout(tabs, 100);
 				setTimeout(thumbs, 100);
+
+				/*стиль к картинке*/
+					
+					$('.thumbs img').first().addClass('active');
 				
 			})
 
