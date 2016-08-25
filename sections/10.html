@@ -1,0 +1,98 @@
+ <h2>Заключите договор на строительство</h2>
+<h3>и получите подарок</h3>
+<h4>до конца акции осталось:</h4>
+<p style='text-align: center'><span id="countdown-3"></span></p>
+<span id="date-str"></span>
+<span id="date2-str"></span>
+<div row>
+<div column="+4 4">
+<form class='formsend'>
+  <p><input type="text" name="name" placeholder="John Doe" /></p>
+  <p><input type="email" name="phone" placeholder='+7 950'/></p>
+  <p><input type="submit" value="Отправить"></p>
+</form>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<style>
+	#date-str, #date2-str
+	{
+		display:none;
+	}
+</style>
+
+
+
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="css/timeTo.css?p=01" />
+<script src='js/jquery.time-to.min.js'></script>
+<script>window.jQuery || document.write('<script src="node_modules/jquery/dist/jquery.min.js"><\/script>')</script>
+<script>
+$('.wrap10').css('display','block');
+        /**
+         * Set timer countdown in seconds with callback
+         */
+        $('#countdown-1').timeTo(120, function(){
+            alert('Countdown finished');
+        });
+        $('#reset-1').click(function() {
+            $('#countdown-1').timeTo('reset');
+        });
+
+        /**
+         * Hide hours
+         */
+        $('#countdown-11').timeTo({
+            seconds: 100,
+            displayHours: false
+        });
+
+        var date = getRelativeDate(20);
+
+        document.getElementById('date-str').innerHTML = date.toString();
+
+        /**
+         * Set timer countdown to specyfied date
+         */
+        $('#countdown-2').timeTo(date);
+
+        date = getRelativeDate(7, 9);
+        document.getElementById('date2-str').innerHTML = date.toString();
+
+        /**
+         * Set theme and captions
+         */
+        $('#countdown-3').timeTo({
+            timeTo: date,
+            displayDays: 2,
+            theme: "black",
+            displayCaptions: true,
+            fontSize: 48,
+            captionSize: 14
+        });
+
+        /**
+         * Simple digital clock
+         */
+        $('#clock-1').timeTo();
+
+        function getRelativeDate(days, hours, minutes){
+            var date = new Date((new Date()).getTime() + 60000 /* milisec */ * 60 /* minutes */ * 24 /* hours */ * days /* days */);
+
+            date.setHours(hours || 0);
+            date.setMinutes(minutes || 0);
+            date.setSeconds(0);
+
+            return date;
+        }
+    </script>

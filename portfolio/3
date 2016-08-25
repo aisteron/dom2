@@ -1,0 +1,26 @@
+
+
+		<img src="img/section4/003.jpg" alt="пс-234" class='media--fluid'>
+		<div class="off hide--xsm">
+			<div class="white">
+				<p>1 074 680 руб. <br></p>
+				<p>1 350 000 руб.</p>
+			</div>
+			<div class="red">
+				<p>ВЫГОДА! <br>
+				275 320 РУБ.</p>
+				<p class="like"></p>
+			</div>
+		</div>
+		<div row>
+			<div column="12">
+				<h3>ДЛ-156</h3>
+				<h4>Общая площадь: 156 м<sup>2</sup> Материал: бревно Ø 200мм</h4>
+			</div>
+		</div>
+		<div row>
+		<div column="4">Старая цена <br><span> 1 350 000 руб.</span></div>	
+		<div column="4">Цена по акции <br><span>1 074 680 руб</span>.</div>
+		<div column="4"><a href="#modal" class="button">Заказать</a></div>
+		</div>
+	

@@ -1,0 +1,23 @@
+		<img src="img/section4/002.jpg" alt="пс-234" class='media--fluid'>
+		<div class="off hide--xsm">
+			<div class="white">
+				<p>1 568 450 руб. <br></p>
+				<p>1 940 000 руб.</p>
+			</div>
+			<div class="red">
+				<p>ВЫГОДА! <br>
+				371 550 РУБ.</p>
+				<p class="like"></p>
+			</div>
+		</div>
+		<div row>
+			<div column="12">
+				<h3>ФЛ-224</h3>
+				<h4>Общая площадь: 224м<sup>2</sup> Материал: бревно Ø 200мм</h4>
+			</div>
+		</div>
+		<div row>
+		<div column="4">Старая цена <br><span> 1 940 000 руб.</span></div>	
+		<div column="4">Цена по акции <br><span>1 568 450 руб</span>.</div>
+		<div column="4"><a href="#modal" class="button">Заказать</a></div>
+		</div>

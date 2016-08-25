@@ -1,0 +1,67 @@
+<h2>Портфолио</h2>
+
+<h3>Наши проекты</h3>
+<div row>
+	<div column="6 +1">		
+	<img src="img/section4/001.jpg" alt="пс-234" class='media--fluid'>
+		<div class="off hide--xsm">
+			<div class="white">
+				<p>1 533 950 руб. <br></p>
+				<p>1 795 000 руб.</p>
+			</div>
+			<div class="red">
+				<p>ВЫГОДА! <br>
+				261 050 РУБ.</p>
+				<p class="like"></p>
+			</div>
+		</div>
+		<div row>
+			<div column="12">
+				<h3>ПС-234</h3>
+				<h4>Общая площадь: 234м<sup>2</sup> Материал: бревно Ø 200мм</h4>
+			</div>
+		</div>
+		<div row>
+		<div column="4">Старая цена <br><span> 1 795 000 руб.</span></div>	
+		<div column="4">Цена по акции <br><span>1 533 950 руб</span>.</div>
+		<div column="4"><a href="#modal" class="button">Заказать</a></div>
+		</div>
+	</div>
+	<div column="3" class='thumbs'>
+		<img src="img/section4/thumbs/001.jpg" class='active'>
+		<img src="img/section4/thumbs/002.jpg">
+		<img src="img/section4/thumbs/003.jpg">
+		<img src="img/section4/thumbs/004.jpg">
+		<img src="img/section4/thumbs/005.jpg">
+	</div>
+
+	<h3 column='12'>В СТОИМОСТЬ 1-ГО ЭТАПА СТРОИТЕЛЬСТВА ДОМА ВХОДИТ:</h3>
+	<div row class='green-features'>
+		<div column="6">
+		<span class="green-icon icon1"></span>
+		<p>Монтаж дома с учетом всех расходных материалов</p>
+		</div>
+		<div column="6">
+		<span class="green-icon icon2"></span>
+		<p>Организация проживания стротельной бригады на объекте</p></div>
+	</div>
+	<div row class='green-features'>
+		<div column="6">
+		<span class="green-icon icon3"></span>
+		<p>Доставка и разгрузка материалов и домокомплекта</p></div>
+		<div column="6">
+		<span class="green-icon icon4"></span>
+		<p>Монтаж, уборка и вывоз строительного мусора</p></div>
+	</div>
+</div>
+
+<script>
+	$('.section4 .thumbs img').click(function(){
+	var index = $('img').index(this) -1;
+
+	$("div[column='6 +1']").load('portfolio/'+index);
+	$('.section4 .thumbs img').removeClass('active');
+	$(this).addClass('active');
+
+})
+</script>

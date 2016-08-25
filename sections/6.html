@@ -1,0 +1,205 @@
+<h2>Готовые решения</h2>
+<div row class='buttonRow'>
+	<div column="3">
+		<a href="#m1" class="button active">Дома из бревна</a>
+	</div>
+	<div column="3">
+		<a href="#m2" class="button">Одноэтажные дома</a>
+	</div>
+	<div column="3">
+		<a href="#m3" class="button">Дома из бруса</a>
+	</div>
+	<div column="3">
+		<a href="#m1" class="button">Бани из бревна</a>
+	</div>
+</div>
+<div class="houses">
+	<div row>
+		<div column="4">
+		<div class="inner" row>
+			<img src="img/section6/001.jpg">
+			<span class="ui-sprite hit"></span>
+			<div class="like">
+                <span class="ui-sprite like-min pull-right"></span>
+                <span>выгода!</span>
+                <p><span>275 320 руб.</span></p>
+              </div>
+			<div row>
+				<p column="12">ДЛ - 156</p>
+				<p class="price" column='12'>
+                  <strong>156</strong> м<sup>2</sup>
+                  <span class="remove"><strong>1 350 000</strong></span>
+                  <span class="red"><strong>1 074 680 руб.</strong></span>
+                </p>
+				<p column="12">
+					<a href="#s6h1" class="button">Подробнее</a>
+				</p>
+			</div>
+		</div>	
+		</div>
+		<div column="4">
+		<div class="inner" row>
+			<img src="img/section6/002.jpg">
+			<span class="ui-sprite hit"></span>
+			<div class="like">
+                <span class="ui-sprite like-min pull-right"></span>
+                <span>выгода!</span>
+                <p><span>260 510 руб.</span></p>
+              </div>
+			<div row>
+				<p column="12">КО - 168</p>
+				<p class="price" column='12'>
+                  <strong>168</strong> м<sup>2</sup>
+                  <span class="remove"><strong>1 390 000</strong></span>
+                  <span class="red"><strong>1 129 490 руб.</strong></span>
+                </p>
+				<p column="12">
+					<a href="#s6h1" class="button">Подробнее</a>
+				</p>
+			</div>
+		</div>	
+		
+			
+		</div>
+		<div column="4">
+
+		<div class="inner" row>
+			<img src="img/section6/003.jpg">
+			<span class="ui-sprite hit"></span>
+			<div class="like">
+                <span class="ui-sprite like-min pull-right"></span>
+                <span>выгода!</span>
+                <p><span>318 940 руб.</span></p>
+              </div>
+			<div row>
+				<p column="12">КФ - 163</p>
+				<p class="price" column='12'>
+                  <strong>163</strong> м<sup>2</sup>
+                  <span class="remove"><strong>1 410 000</strong></span>
+                  <span class="red"><strong>1 091 060 руб.</strong></span>
+                </p>
+				<p column="12">
+					<a href="#s6h1" class="button">Подробнее</a>
+				</p>
+			</div>
+		</div>	
+		
+			
+		
+			
+		</div>
+	</div>
+</div>
+
+
+
+<div id="s6h1" class="modal">
+	
+</div>
+
+<script>
+
+/*Внимание! Ниже написаны лютые, просто чудовищные костыли, патаму шта я не праграмист!*/
+
+/* [Прошло 5 минут]	Я забыл почему оно работает ~_~ */
+
+	//$("p[column='12'] a.button").click(function(){
+	$("div[column='4'] .inner").click(function(){
+
+
+	var divIndex = $("div[column='4'] .inner").index(this) + 1;	//получаем номер
+																// который открываем
+	console.log('Клик по контейнеру №'+divIndex);
+
+
+	window.location='#s6h1';//открываем modal попап
+
+/*табы экстерьер, планировка, 3D план*/
+function tabs()
+{
+
+	function radioIndex()
+			{
+				var Radio = $(".chars input[name='group']");
+				var indexRadio = Radio.index(Radio.filter(':checked')) +1;
+				return indexRadio;
+
+			}
+				
+	$('.buttongroup a.button').click(function(e){
+					e.preventDefault();
+					$('.buttongroup a.button').removeClass('active');
+					$(this).addClass('active');
+					
+
+
+					var indexButton = $('.buttongroup a.button').index(this) +1;
+					console.log('Клик по кнопке #'+indexButton);
+
+
+					$('.thumbs img').remove(); //удаляем все изображения из контейнера
+
+					if(indexButton==1){	//если это 1-я кнопка
+					for (var i = 1; i < 5; i++) 
+						{
+						radioIndex();//узнаем индекс радиокнопки	
+						var imgUrl = 'img/section6/0'+divIndex+'/r'+radioIndex()+'/thumbs/t'+indexButton+'/00'+i+'.jpg'
+
+						$('.thumbs').append('<img src='+imgUrl+'>'); //то выводим 4 картинки
+
+						}
+
+					} else
+						{
+						for (var i = 1; i < 3; i++) { //а если, мать его, 2-я или 3-я, то 2 картинки
+						var imgUrl = 'img/section6/0'+divIndex+'/r'+indexRadio+'/thumbs/t'+indexButton+'/00'+i+'.jpg'
+
+						$('.thumbs').append('<img src='+imgUrl+'>'); 
+
+						}
+					}
+
+
+	});
+}
+
+/*управление радиокнопками*/
+function radio() {
+
+	//$("input[type='radio']").change(function(){
+	$('.chars ul li').click(function(){
+				//var index = $(".chars ul li input[type='radio']").index(this)+1;
+				var index = $(".chars ul li").index(this)+1;
+				$(this).find("input[type='radio']").attr('checked');
+				console.log('Клик по радиокнопке №'+index);
+				$('.modal').load('sections/solutions #m0'+divIndex+'-r'+ index);
+
+
+				setTimeout(radio, 100);
+				setTimeout(tabs, 100);
+			})
+
+		}
+
+	setTimeout(radio, 100);
+
+		
+		$('.modal').load('sections/solutions #m0'+divIndex+'-r1', function(){
+		tabs();
+			
+
+		});
+
+		
+	})
+
+/* 'закрываем' модальные окна по Esc*/
+
+$(document).keyup(function(e) {
+     if (e.keyCode == 27) { // escape key maps to keycode `27`
+        window.location='#close';
+    }
+});
+
+
+</script>

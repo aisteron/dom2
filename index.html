@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+
+  <title>Concise Template</title>
+
+  <link rel="stylesheet" type="text/css" media="screen" href="css/concise.min.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/concise-ui.min.css" />
+  
+</head>
+
+<body>
+<div container class="section1" >
+		
+	<header container class="siteHeader">
+    <div row>
+      <h1 column="4" class="logo">Wood House Group</h1>
+
+      <nav column="8" class="nav">
+
+        <ul>
+          <li><a href="#sH">Заказать звонок</a></li>
+          <li>+375 29 000 00 00</li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="top-img"></div>
+
+	  <div row>
+		  <span column="6">
+		  	<img src="img/logo-hi.png" alt="logo whg">
+		  </span>
+		  <span column="6">
+		  	<p>КОНСУЛЬТАЦИИ С 09:00 ДО 21:00, БЕЗ ВЫХОДНЫХ</p>
+			<p>+7 (987) 172-94-56</p>
+			<p>ЗАПИСАТЬСЯ НА ВСТРЕЧУ ПО ТЕЛЕФОНУ</p>
+			<a href="#modal1" class="button yellow" id='yellow'>Перезвоните мне</a>
+		  </span>
+	  </div>
+
+
+	  <div row>
+	  	
+	  		<h1 column='+3 6'>Строительство домов из оцилиндрованного бревна и клееного бруса</h1>
+	  		<h2 column='+3 6'>Сохраняем специальные зимние цены до 1 июня скидка на отдельные проекты до 250 000 рублей.</h2>
+			<span column="12">
+	  		<form class="form--inline">
+	  			<input type="text" name="name" placeholder="Ваше имя" />
+	  			<input type="text" name="phone" placeholder="+375 29 536 00 00" />
+	  			<input type="submit" value="Отправить">
+	  		</form>
+	  	</span>	
+	  </div>
+ </div>
+
+<div container class="section2">
+<h1 column="12">Мы строим дома, которые</h1>
+	<div row>
+		<div column="3">
+			<span class="icon1"></span>
+			<h4>Прочные и долговечные</h4>
+		</div>
+		<div column="3">
+			<span class="icon2"></span>
+			<h4>Имеют отличную термоизоляцию</h4>
+		</div>
+		<div column="3">
+			<span class="icon3"></span>
+			<h4>Срок службы более 100 лет</h4>
+		</div>
+		<div column="3">
+			<span class="icon4"></span>
+			<h4>Геометрически стабильны</h4>		
+		</div>
+	</div>
+</div>
+
+<div container class="section3 lazyload" data-include='sections/3().html'></div>
+
+<div container class="section4 lazyload" data-include='sections/4().html'></div>
+
+<div container class="section5 lazyload" data-include='sections/5().html'></div>
+
+<div container class="section6 lazyload" data-include='sections/6.html'></div>
+
+<div container class="section7 lazyload" data-include='sections/7().html'></div>
+
+<div container class="section8 lazyload" data-include='sections/8().html'></div>
+
+<div container class="section9 lazyload" data-include='sections/9().html'></div>
+
+<div class="wrap10">
+<div container class="section10 lazyload" data-include='sections/10().html'></div>
+</div>
+
+<div container class="section11 lazyload" data-include='sections/11().html'></div>
+
+<div container class="section12 map lazyload" data-include='sections/12().html'>
+</div>
+
+<div container class="section13 lazyload" data-include='sections/13().html'></div>
+
+
+
+<link rel="stylesheet/less" type="text/css" media="screen" href="css/custom.less" />
+  <script src='js/less.min.js'></script>
+  <script src='js/lazysizes.min.js'></script>
+  <script src='js/ls.include.min.js'></script>
+  <script src='js/jquery-2.2.4.min.js'></script>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript" defer></script>
+  <script>
+  	function getBodyScrollTop()
+{
+return self.pageYOffset || (document.documentElement && document.documentElement.scrollTop) || (document.body && document.body.scrollTop);
+}
+$(window).scroll(function(){
+var top = 	getBodyScrollTop();
+
+if (top>=200){
+	$('.siteHeader').css('display','block');
+} else {$('.siteHeader').css('display','none');}
+})
+
+
+  </script>
+</body>
+</html>

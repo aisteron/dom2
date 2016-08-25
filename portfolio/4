@@ -1,0 +1,26 @@
+
+
+		<img src="img/section4/004.jpg" alt="пс-234" class='media--fluid'>
+		<div class="off hide--xsm">
+			<div class="white">
+				<p>1 087 280 руб. <br></p>
+				<p>1 439 000 руб.</p>
+			</div>
+			<div class="red">
+				<p>ВЫГОДА! <br>
+				275 320 РУБ.</p>
+				<p class="like"></p>
+			</div>
+		</div>
+		<div row>
+			<div column="12">
+				<h3>ЗС-159</h3>
+				<h4>Общая площадь: 159 м<sup>2</sup> Материал: бревно Ø 200мм</h4>
+			</div>
+		</div>
+		<div row>
+		<div column="4">Старая цена <br><span> 1 439 000 руб.</span></div>	
+		<div column="4">Цена по акции <br><span>1 087 280 руб</span>.</div>
+		<div column="4"><a href="#modal" class="button">Заказать</a></div>
+		</div>
+	
