@@ -118,13 +118,11 @@
 function tabs()
 {
 
-	function radioIndex()
-			{
+
 				var Radio = $(".chars input[name='group']");
 				var indexRadio = Radio.index(Radio.filter(':checked')) +1;
-				return indexRadio;
 
-			}
+
 				
 	$('.buttongroup a.button').click(function(e){
 					e.preventDefault();
@@ -142,8 +140,8 @@ function tabs()
 					if(indexButton==1){	//если это 1-я кнопка
 					for (var i = 1; i < 5; i++) 
 						{
-						radioIndex();//узнаем индекс радиокнопки	
-						var imgUrl = 'img/section6/0'+divIndex+'/r'+radioIndex()+'/thumbs/t'+indexButton+'/00'+i+'.jpg'
+	
+						var imgUrl = 'img/section6/0'+divIndex+'/r'+indexRadio+'/thumbs/t'+indexButton+'/00'+i+'.jpg'
 
 						$('.thumbs').append('<img src='+imgUrl+'>'); //то выводим 4 картинки
 
