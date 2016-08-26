@@ -17,7 +17,7 @@
 	<div row>
 		<div column="4">
 		<div class="inner" row>
-			<img src="img/section6/001.jpg">
+			<img src="img/section6/01/001.jpg">
 			<span class="ui-sprite hit"></span>
 			<div class="like">
                 <span class="ui-sprite like-min pull-right"></span>
@@ -39,7 +39,7 @@
 		</div>
 		<div column="4">
 		<div class="inner" row>
-			<img src="img/section6/002.jpg">
+			<img src="img/section6/02/001.jpg">
 			<span class="ui-sprite hit"></span>
 			<div class="like">
                 <span class="ui-sprite like-min pull-right"></span>
@@ -64,7 +64,7 @@
 		<div column="4">
 
 		<div class="inner" row>
-			<img src="img/section6/003.jpg">
+			<img src="img/section6/03/001.jpg">
 			<span class="ui-sprite hit"></span>
 			<div class="like">
                 <span class="ui-sprite like-min pull-right"></span>
@@ -124,8 +124,9 @@ function tabs()
 
 
 				
-	$('.buttongroup a.button').click(function(e){
+				$('.buttongroup a.button').click(function(e){
 					e.preventDefault();
+
 					$('.buttongroup a.button').removeClass('active');
 					$(this).addClass('active');
 					
@@ -160,7 +161,17 @@ function tabs()
 					/*стиль к картинке*/
 
 					$('.thumbs img').first().addClass('active');
+					
+					thumbs();
+					/*однократная замена 1-го thumb на большую картинку*/
+					
+					var str = $('.thumbs img').first().attr('src').slice(0,19);
+					str += $('.thumbs img').first().attr('src').slice(26,36).replace('/','-');
+					$('.modal-body img').first().attr('src', str);
+					
+					
 
+					
 
 	});
 }
@@ -195,10 +206,7 @@ function radio() {
 				setTimeout(tabs, 100);
 				setTimeout(thumbs, 100);
 
-				/*стиль к картинке*/
 					
-					$('.thumbs img').first().addClass('active');
-				
 			})
 
 		}
