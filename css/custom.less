@@ -1,142 +1,36 @@
 @radius:6px;
 @green:#6daf2e;
 @pink:#f3164a;
-html, body
+.section1 div[row] span[column='6']:nth-child(2) .yellow
 {
-	height: 100%
-}
-
-.siteHeader {
-  border-bottom: 1px solid #eee;
-  display: none;
-  position: fixed;
-  background-color: #fff;
-  z-index: 1200;
-  margin-left: -15px;
-
-  a
-  {
-  	color: #ffad00;
-  }
-  ul li
-  {
-  	color:#111;
-  }
-}
-
-.logo {
-  font-size: 22px;
-  margin-bottom: 0;
-}
-
-.nav { text-align: right; }
-
-.nav li {
-  display: inline;
-  line-height: 4;
-  margin-left: 25px;
-}
-.nav li:first-of-type {
-  margin-left: 0;
-}
-
-.top-img
-{
-	display: block;
-	position: absolute;
-	top: 0;
-	left:0;
-	height: 100%;
-	width:100%;
-	background-image: url(../img/screen1bg1600.jpg);
-	background-size: cover;
-    background-color: #ccc;
-        z-index: -1;
-}
-
-.section1
-{
-	color:#fff;
-	div[row]
-	{
-		span[column='6']:nth-child(2)
-		{
-			text-align: center;
-    		line-height: 87%;
-    		padding-top: 2em;
-			
-			p:nth-child(2)
-			{
-				font-size:2em;
-			}
-			.yellow
-			{
-			   background-color: #ffd619;
+				background-color: #ffd619;
 			   border-radius: @radius;
 			   color:#222;
 			   &:hover
 			   {
 			   	background-color: #ffad00;
 			   }
-
-			}
-
-		}
-
-		span[column='6']:nth-child(1)
-		{
-			img 
-			{
-				float:right;
-			}
-		}
-	}
-
-
-	div[row]:nth-of-type(3)
-	{
-		
-		span[column='12']
-		{
-			form
-			{
-				text-align: center;
-
-				input[type='text']
-				{
-					padding:1.6em;
-				}
-
-				input[type='submit']
-				{
+}
+.section1 div[row]:nth-of-type(3) span[column='12'] form input[type='submit']
+{
 					color:#111;
-					/*жесть, вот это extend, реально сидел 2*/
+					
 					&:extend(.section1 div[row] span[column='6']:nth-child(2) .yellow);
 					&:hover{background-color:#ffad00;}
-				}
-				
+}
 
-			}
-		}
-			h1, h2
-			{
-				text-align: center;
-				color:#fff;
-			}
-			h1
-			{
-				text-transform: uppercase;
 
-			}
-		
-	}
-
-} 
-/*/section1*/
-
+@media only screen and (min-width:1440px){
+        /* styles for browsers larger than 1440px; */
+        .section2
+        {
+        	margin-top:100px;
+        }
+    }
 .section2
 {
-	//background-color: #eee;	
+	//background-color: #eee;
+	
 	h1
 	{
 		text-transform: uppercase;
@@ -200,7 +94,6 @@ html, body
 
 .section4
 {
-	background-image: url(../img/bg-green-texture.jpg);
 
 	h2,h3
 	{
@@ -358,7 +251,7 @@ html, body
 /*section6*/
 .section6
 {
-	background-image: url(../img/bg-green-texture.jpg);
+	
 	h2
 	{
 		&:extend(.section2 h1);
@@ -684,7 +577,7 @@ html, body
 
 .section8
 {
-	background-image: url(../img/bg-green-texture.jpg);
+
 	
 	h2
 	{
@@ -774,15 +667,7 @@ html, body
 }
 
 /*section10*/
-.wrap10
-{
-	background:url(../img/section10/b001.jpg)
-	50% 50% no-repeat;
-    background-size: cover;
-    color: white;
-    padding-bottom: 80px;
-    
-}
+
 .section10
 {
 	

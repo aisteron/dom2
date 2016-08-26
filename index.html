@@ -11,7 +11,105 @@
 
   <link rel="stylesheet" type="text/css" media="screen" href="css/concise.min.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="css/concise-ui.min.css" />
-  
+  <style meta-data='вынес из скомпилированного less все что относится к первой секции'>
+  html,
+body {
+  height: 100%;
+}
+.siteHeader {
+  border-bottom: 1px solid #eee;
+  display: none;
+  position: fixed;
+  background-color: #fff;
+  z-index: 1200;
+  margin-left: -15px;
+}
+.siteHeader a {
+  color: #ffad00;
+}
+.siteHeader ul li {
+  color: #111;
+}
+.logo {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+.nav {
+  text-align: right;
+}
+.nav li {
+  display: inline;
+  line-height: 4;
+  margin-left: 25px;
+}
+.nav li:first-of-type {
+  margin-left: 0;
+}
+.top-img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(http://localhost/dom2/img/screen1bg1600.jpg);
+  background-size: cover;
+  background-color: #ccc;
+  z-index: -1;
+}
+.section1 {
+  color: #fff;
+  height:100%;	
+}
+.section1 div[row] span[column='6']:nth-child(2) {
+  text-align: center;
+  line-height: 87%;
+  padding-top: 2em;
+}
+.section1 div[row] span[column='6']:nth-child(2) p:nth-child(2) {
+  font-size: 2em;
+}
+.section1 div[row] span[column='6']:nth-child(2) .yellow,
+.section1 div[row]:nth-of-type(3) span[column='12'] form input[type='submit'],
+.section4 div[column='6 +1'] a.button,
+.section6 .modal-footer a.button,
+.section7 button,
+.section10 form input[type='submit'],
+.section13 input[type='submit'] {
+  background-color: #ffd619;
+  border-radius: 6px;
+  color: #222;
+}
+.section1 div[row] span[column='6']:nth-child(2) .yellow:hover {
+  background-color: #ffad00;
+}
+.section1 div[row] span[column='6']:nth-child(1) img {
+  float: right;
+}
+.section1 div[row]:nth-of-type(3) span[column='12'] form {
+  text-align: center;
+}
+.section1 div[row]:nth-of-type(3) span[column='12'] form input[type='text'] {
+  padding: 1.6em;
+}
+.section1 div[row]:nth-of-type(3) span[column='12'] form input[type='submit'],
+.section13 input[type='submit'] {
+  color: #111;
+  /*жесть, вот это extend, реально сидел 2*/
+}
+.section1 div[row]:nth-of-type(3) span[column='12'] form input[type='submit']:hover {
+  background-color: #ffad00;
+}
+.section1 div[row]:nth-of-type(3) h1,
+.section1 div[row]:nth-of-type(3) h2 {
+  text-align: center;
+  color: #fff;
+}
+.section1 div[row]:nth-of-type(3) h1 {
+  text-transform: uppercase;
+}
+
+  </style>
 </head>
 
 <body>
@@ -96,9 +194,11 @@
 
 <div container class="section9 lazyload" data-include='sections/9().html'></div>
 
-<div class="wrap10">
+<!--div class="wrap10">
 <div container class="section10 lazyload" data-include='sections/10().html'></div>
-</div>
+</div-->
+<div class="wrap10 lazyload" data-include='sections/10().html'></div>
+
 
 <div container class="section11 lazyload" data-include='sections/11().html'></div>
 
@@ -114,7 +214,6 @@
   <script src='js/lazysizes.min.js'></script>
   <script src='js/ls.include.min.js'></script>
   <script src='js/jquery-2.2.4.min.js'></script>
-  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript" defer></script>
   <script>
   	function getBodyScrollTop()
 {

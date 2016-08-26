@@ -1,10 +1,16 @@
 <!--script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=X1Y1Y4AlXN2d258LyA0Uw67m8WFshCWX&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script-->
+    <div id="map" style="width: 100%; height: 400px">
+    	
+    </div>
 
-    <div id="map" style="width: 100%; height: 400px"></div>
+
 
     <script type="text/javascript">
     
-
+$.getScript('https://api-maps.yandex.ru/2.1/?lang=ru_RU')
+		.done(function(){
+				$('h3.notice').fadeOut('slow');
+		});
 
 function fun() {
   var map = new ymaps.Map("map", {
@@ -13,7 +19,7 @@ function fun() {
         });
 
 }
-setTimeout(fun, 2000)
+setTimeout(fun, 3000)
 
 </script>
 
