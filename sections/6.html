@@ -182,87 +182,78 @@
 
 <script>
 
-/*Внимание! Ниже написаны лютые, просто чудовищные костыли, патаму шта я не праграмист!*/
+/*открываем попап*/
+var divIndex = {}; //глабальная переменная с номером контейнера
+$("div[column='4'] .inner").click(function(){
 
-/* [Прошло 5 минут]	Я забыл почему оно работает ~_~ */
-
-	//$("p[column='12'] a.button").click(function(){
-	$("div[column='4'] .inner").click(function(){
-
-
-	var divIndex = $("div[column='4'] .inner").index(this) + 1;	//получаем номер
-																// который открываем
+	divIndex = $("div[column='4'] .inner").index(this) + 1;	
 	console.log('Клик по контейнеру №'+divIndex);
-
 
 	window.location='#s6h1';//открываем modal попап
 
-/*табы экстерьер, планировка, 3D план*/
-function tabs()
-{
+	$('.modal').load('sections/solutions #m0'+divIndex+'-r1');
 
-				/*получаем индекс радиокнопки*/
-				var Radio = $(".chars input[name='group']");
-				var indexRadio = Radio.index(Radio.filter(':checked')) +1;
+});
 
 
-				
-				$('.buttongroup a.button').click(function(e){
-					e.preventDefault();
+/*описываем хэндлеры для попапа*/
 
-					$('.buttongroup a.button').removeClass('active');
-					$(this).addClass('active');
-					
+/*работа с табами*/
 
-
-					var indexButton = $('.buttongroup a.button').index(this) +1;
-					console.log('Клик по кнопке #'+indexButton);
+$(document).on('click', '.buttongroup a.button',function(e){
+	e.preventDefault();
 
 
-					$('.thumbs img').remove(); //удаляем все изображения из контейнера
 
-					if(indexButton==1){	//если это 1-я кнопка
-					for (var i = 1; i < 5; i++) 
-						{
+	/*цвет желтый табы*/
+	$('.buttongroup a.button').removeClass('active');
+	$(this).addClass('active');
+
+	/*получаем индекс радиокнопки*/
+	var Radio = $(".chars input[name='group']");
+	var indexRadio = Radio.index(Radio.filter(':checked')) +1;
+
+	/*получаем индекс табы*/
+	var indexButton = $('.buttongroup a.button').index(this) +1;
+	console.log('Клик по кнопке #'+indexButton);
+
+	$('.thumbs img').remove(); //удаляем все изображения из контейнера
+
+	if(indexButton==1)
+	{	//если это 1-я кнопка
+		for (var i = 1; i < 5; i++) 
+			{
 	
-						var imgUrl = 'img/section6/0'+divIndex+'/r'+indexRadio+'/thumbs/t'+indexButton+'/00'+i+'.jpg'
+			var imgUrl = 'img/section6/0'+divIndex+'/r'+indexRadio+'/thumbs/t'+indexButton+'/00'+i+'.jpg'
 
-						$('.thumbs').append('<img src='+imgUrl+'>'); //то выводим 4 картинки
+			$('.thumbs').append('<img src='+imgUrl+'>'); //то выводим 4 картинки
 
-						}
+			}
 
-					} else
-						{
-						for (var i = 1; i < 3; i++) { //а если, мать его, 2-я или 3-я, то 2 картинки
-						var imgUrl = 'img/section6/0'+divIndex+'/r'+indexRadio+'/thumbs/t'+indexButton+'/00'+i+'.jpg'
+	} else
+	{
+		for (var i = 1; i < 3; i++) 
+		{ //а если, мать его, 2-я или 3-я, то 2 картинки
+			var imgUrl = 'img/section6/0'+divIndex+'/r'+indexRadio+'/thumbs/t'+indexButton+'/00'+i+'.jpg'
 
-						$('.thumbs').append('<img src='+imgUrl+'>'); 
+			$('.thumbs').append('<img src='+imgUrl+'>'); 
 
-						}
-					}
-
-					/*стиль к картинке*/
-
-					$('.thumbs img').first().addClass('active');
-					
-					thumbs();
-					/*однократная замена 1-го thumb на большую картинку*/
-					
-					var str = $('.thumbs img').first().attr('src').slice(0,19);
-					str += $('.thumbs img').first().attr('src').slice(26,36).replace('/','-');
-					$('.modal-body img').first().attr('src', str);
-					
-					
+		}
+	}
 
 					
+	/*стиль к картинке*/
 
-	});
-}
+	$('.thumbs img').first().addClass('active');
 
-function thumbs(){
-	$('.thumbs img').click(function(){
 
-		var str = $(this).attr('src').slice(0,19);
+})
+
+/*работа с превью изображений в попапе*/
+
+$(document).on('click', '.thumbs img', function(){
+
+	var str = $(this).attr('src').slice(0,19);
 		str += $(this).attr('src').slice(26,36).replace('/','-');
 		console.log(str);
 		$('.modal-body img').first().attr('src', str);
@@ -270,41 +261,35 @@ function thumbs(){
 		/*стили*/
 		$('.thumbs img').removeClass('active');
 		$(this).addClass('active');
-	})
-}
+})
 
-/*управление радиокнопками*/
-function radio() {
+/*работа с радиокнопками*/
 
-	//$("input[type='radio']").change(function(){
-	$('.chars ul li').click(function(){
-				//var index = $(".chars ul li input[type='radio']").index(this)+1;
-				var index = $(".chars ul li").index(this)+1;
-				$(this).find("input[type='radio']").attr('checked');
-				console.log('Клик по радиокнопке №'+index);
-				$('.modal').load('sections/solutions #m0'+divIndex+'-r'+ index);
+$(document).on('click', '.chars ul li', function(){
+
+	var index = $(".chars ul li").index(this)+1;
+		$(this).find("input[type='radio']").attr('checked');
+		console.log('Клик по радиокнопке №'+index);
+		$('.modal').load('sections/solutions #m0'+divIndex+'-r'+ index);
+})
 
 
-				setTimeout(radio, 100);
-				setTimeout(tabs, 100);
-				setTimeout(thumbs, 100);
 
-					
-			})
 
-		}
 
-	setTimeout(radio, 100);
 
-		
-		$('.modal').load('sections/solutions #m0'+divIndex+'-r1', function(){
-		tabs();
-		thumbs();	
 
-		});
 
-		
-	})
+
+
+
+
+
+
+
+
+
+
 
 /* 'закрываем' модальные окна по Esc*/
 
