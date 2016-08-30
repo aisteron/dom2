@@ -2061,3 +2061,1401 @@
       </div>
     </div>
   </div>
+
+  
+  <!-- 07-r1 -->
+
+<div class="modal-container" id='m07-r1'>
+    <div class="modal-header">
+      ОР - 170
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+     <img alt="КО - 168" data-src="img/section6/07/r1/t1-001.jpg" class='lazyload'>
+
+    <div class="card-like hide--sm">
+	    <span class="ui-sprite like pull-right"></span>
+	    <span class="text">Выгода!</span>
+	    
+	    <p>297 830 РУБ.</p>
+
+  </div>
+	<div row>
+		<div column="6" class='thumbs'>
+		<div row class='buttongroup'>
+				<span column="4">
+				<a href="#t1" class="button">Экстерьер</a></span>
+				<span column="4">
+				<a href="#t2" class="button">Планировка</a></span>
+				<span column="4">
+				<a href="#t3" class="button">3D план</a></span>
+			</div>
+			<img data-src="img/section6/07/r1/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/07/r1/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/07/r1/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/07/r1/thumbs/t1/004.jpg" class="lazyload">
+			
+		</div>
+		<div column="6" class='chars'>
+		<p>Стоимость первого этапа без фундамента</p>
+
+		<span>1 450 000</span> 
+		<span> 1 152 170 руб.</span>
+			
+			<ul>
+				<li><input type="radio" id='r1' checked name='group'> Оцилиндрованное бревно 200, 220, 240, 260, 300 мм</li>
+				<li><input type="radio" id='r2'  name='group'> Профилированный брус 145, 175, 190, 245 мм</li>
+				<li><input type="radio" id='r3'  name='group'>Клееный брус 160, 200, 240 мм</li>
+				<li><input type="radio" id='r4' name='group'>Ручная рубка 300 – 380 мм</li>
+			</ul>
+		</div>
+	</div>
+	<div row class='greyrow'>
+		<span column="2">
+			<span>Общая площадь</span><br>
+			<span>170 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Габариты</span><br>
+			<span>13,0х9,0</span>
+		</span>
+		<span column="2">
+			<span>Стоимость 1 м<sup>2</sup></span><br>
+			<span>6 752 руб.</span>
+		</span>
+		<span column="2">
+			<span>Полезная площадь</span><br>
+			<span>156 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Площадь застройки</span><br>
+			<span>109 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Стоимость проекта</span><br>
+			<span>Звоните</span>
+		</span>
+	</div>
+
+    </div>
+
+    <div class="modal-footer">
+      
+      <div row>
+      <span column='6'><a href="#mh1" class="button yellow" >Заказать строительство</a></span>
+      <span column='6'><a href="#mh2" class="button yellow" >Заказать проект</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 07-r2 -->
+
+<div class="modal-container" id='m07-r2'>
+    <div class="modal-header">
+      ОР - 170
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+     <img data-src="img/section6/07/r2/t1-001.jpg" class='lazyload'>
+
+    <div class="card-like hide--sm">
+	    <span class="ui-sprite like pull-right"></span>
+	    <span class="text">Выгода!</span>
+	    
+	    <p>334 570 РУБ.</p>
+
+  </div>
+	<div row>
+		<div column="6" class='thumbs'>
+		<div row class='buttongroup'>
+				<span column="4">
+				<a href="#t1" class="button">Экстерьер</a></span>
+				<span column="4">
+				<a href="#t2" class="button">Планировка</a></span>
+				<span column="4">
+				<a href="#t3" class="button">3D план</a></span>
+			</div>
+			<img data-src="img/section6/07/r2/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/07/r2/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/07/r2/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/07/r2/thumbs/t1/004.jpg" class="lazyload">
+			
+		</div>
+		<div column="6" class='chars'>
+		<p>Стоимость первого этапа без фундамента</p>
+
+		<span>1 535 000</span> 
+		<span> 1 200 430 руб.</span>
+			
+			<ul>
+				<li><input type="radio" id='r1'  name='group'> Оцилиндрованное бревно 200, 220, 240, 260, 300 мм</li>
+				<li><input type="radio" id='r2' checked name='group'> Профилированный брус 145, 175, 190, 245 мм</li>
+				<li><input type="radio" id='r3'  name='group'>Клееный брус 160, 200, 240 мм</li>
+				<li><input type="radio" id='r4' name='group'>Ручная рубка 300 – 380 мм</li>
+			</ul>
+		</div>
+	</div>
+	<div row class='greyrow'>
+		<span column="2">
+			<span>Общая площадь</span><br>
+			<span>170 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Габариты</span><br>
+			<span>13,0х9,0</span>
+		</span>
+		<span column="2">
+			<span>Стоимость 1 м<sup>2</sup></span><br>
+			<span>7 045 руб.</span>
+		</span>
+		<span column="2">
+			<span>Полезная площадь</span><br>
+			<span>156 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Площадь застройки</span><br>
+			<span>109 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Стоимость проекта</span><br>
+			<span>Звоните</span>
+		</span>
+	</div>
+
+    </div>
+
+    <div class="modal-footer">
+      
+      <div row>
+      <span column='6'><a href="#mh1" class="button yellow" >Заказать строительство</a></span>
+      <span column='6'><a href="#mh2" class="button yellow" >Заказать проект</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 07-r3 -->
+
+<div class="modal-container" id='m07-r3'>
+    <div class="modal-header">
+      ОР - 170
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+     <img data-src="img/section6/07/r3/t1-001.jpg" class='lazyload'>
+
+    <div class="card-like hide--sm">
+	    <span class="ui-sprite like pull-right"></span>
+	    <span class="text">Выгода!</span>
+	    
+	    <p>165 000 РУБ.</p>
+
+  </div>
+	<div row>
+		<div column="6" class='thumbs'>
+		<div row class='buttongroup'>
+				<span column="4">
+				<a href="#t1" class="button">Экстерьер</a></span>
+				<span column="4">
+				<a href="#t2" class="button">Планировка</a></span>
+				<span column="4">
+				<a href="#t3" class="button">3D план</a></span>
+			</div>
+			<img data-src="img/section6/07/r3/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/07/r3/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/07/r3/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/07/r3/thumbs/t1/004.jpg" class="lazyload">
+			
+		</div>
+		<div column="6" class='chars'>
+		<p>Стоимость первого этапа без фундамента</p>
+
+		<span>1 892 370</span> 
+		<span>1 727 370 руб.</span>
+			
+			<ul>
+				<li><input type="radio" id='r1'  name='group'> Оцилиндрованное бревно 200, 220, 240, 260, 300 мм</li>
+				<li><input type="radio" id='r2'  name='group'> Профилированный брус 145, 175, 190, 245 мм</li>
+				<li><input type="radio" id='r3' checked name='group'>Клееный брус 160, 200, 240 мм</li>
+				<li><input type="radio" id='r4' name='group'>Ручная рубка 300 – 380 мм</li>
+			</ul>
+		</div>
+	</div>
+	<div row class='greyrow'>
+		<span column="2">
+			<span>Общая площадь</span><br>
+			<span>170 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Габариты</span><br>
+			<span>13,0х9,0</span>
+		</span>
+		<span column="2">
+			<span>Стоимость 1 м<sup>2</sup></span><br>
+			<span>10 137 руб.</span>
+		</span>
+		<span column="2">
+			<span>Полезная площадь</span><br>
+			<span>156 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Площадь застройки</span><br>
+			<span>109 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Стоимость проекта</span><br>
+			<span>Звоните</span>
+		</span>
+	</div>
+
+    </div>
+
+    <div class="modal-footer">
+      
+      <div row>
+      <span column='6'><a href="#mh1" class="button yellow" >Заказать строительство</a></span>
+      <span column='6'><a href="#mh2" class="button yellow" >Заказать проект</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 07-r4 -->
+
+<div class="modal-container" id='m07-r4'>
+    <div class="modal-header">
+      ОР - 170
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+     <img data-src="img/section6/07/r4/t1-001.jpg" class='lazyload'>
+
+    <div class="card-like hide--sm">
+	    <span class="ui-sprite like pull-right"></span>
+	    <span class="text">Выгода!</span>
+	    
+	    <p>165 000 РУБ.</p>
+
+  </div>
+	<div row>
+		<div column="6" class='thumbs'>
+		<div row class='buttongroup'>
+				<span column="4">
+				<a href="#t1" class="button">Экстерьер</a></span>
+				<span column="4">
+				<a href="#t2" class="button">Планировка</a></span>
+				<span column="4">
+				<a href="#t3" class="button">3D план</a></span>
+			</div>
+			<img data-src="img/section6/07/r4/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/07/r4/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/07/r4/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/07/r4/thumbs/t1/004.jpg" class="lazyload">
+			
+		</div>
+		<div column="6" class='chars'>
+		<p>Стоимость первого этапа без фундамента</p>
+
+		<span> </span> 
+		<span>Звоните</span>
+			
+			<ul>
+				<li><input type="radio" id='r1'  name='group'> Оцилиндрованное бревно 200, 220, 240, 260, 300 мм</li>
+				<li><input type="radio" id='r2'  name='group'> Профилированный брус 145, 175, 190, 245 мм</li>
+				<li><input type="radio" id='r3'  name='group'>Клееный брус 160, 200, 240 мм</li>
+				<li><input type="radio" id='r4' checked name='group'>Ручная рубка 300 – 380 мм</li>
+			</ul>
+		</div>
+	</div>
+	<div row class='greyrow'>
+		<span column="2">
+			<span>Общая площадь</span><br>
+			<span>170 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Габариты</span><br>
+			<span>13,0х9,0</span>
+		</span>
+		<span column="2">
+			<span>Стоимость 1 м<sup>2</sup></span><br>
+			<span>Звоните</span>
+		</span>
+		<span column="2">
+			<span>Полезная площадь</span><br>
+			<span>156 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Площадь застройки</span><br>
+			<span>109 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Стоимость проекта</span><br>
+			<span>Звоните</span>
+		</span>
+	</div>
+
+    </div>
+
+    <div class="modal-footer">
+      
+      <div row>
+      <span column='6'><a href="#mh1" class="button yellow" >Заказать строительство</a></span>
+      <span column='6'><a href="#mh2" class="button yellow" >Заказать проект</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 8 house -->
+
+   <!-- 08-r1 -->
+
+<div class="modal-container" id='m08-r1'>
+    <div class="modal-header">
+      ПС - 234
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+     <img data-src="img/section6/08/r1/t1-001.jpg" class='lazyload'>
+
+    <div class="card-like hide--sm">
+	    <span class="ui-sprite like pull-right"></span>
+	    <span class="text">Выгода!</span>
+	    
+	    <p>261 050 РУБ.</p>
+
+  </div>
+	<div row>
+		<div column="6" class='thumbs'>
+		<div row class='buttongroup'>
+				<span column="4">
+				<a href="#t1" class="button">Экстерьер</a></span>
+				<span column="4">
+				<a href="#t2" class="button">Планировка</a></span>
+				<span column="4">
+				<a href="#t3" class="button">3D план</a></span>
+			</div>
+			<img data-src="img/section6/08/r1/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/08/r1/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/08/r1/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/08/r1/thumbs/t1/004.jpg" class="lazyload">
+			
+		</div>
+		<div column="6" class='chars'>
+		<p>Стоимость первого этапа без фундамента</p>
+
+		<span>1 795 000</span> 
+		<span> 1 533 950 руб.</span>
+			
+			<ul>
+				<li><input type="radio" id='r1' checked name='group'> Оцилиндрованное бревно 200, 220, 240, 260, 300 мм</li>
+				<li><input type="radio" id='r2'  name='group'> Профилированный брус 145, 175, 190, 245 мм</li>
+				<li><input type="radio" id='r3'  name='group'>Клееный брус 160, 200, 240 мм</li>
+				<li><input type="radio" id='r4' name='group'>Ручная рубка 300 – 380 мм</li>
+			</ul>
+		</div>
+	</div>
+	<div row class='greyrow'>
+		<span column="2">
+			<span>Общая площадь</span><br>
+			<span>234 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Габариты</span><br>
+			<span>14.5 x 11.0</span>
+		</span>
+		<span column="2">
+			<span>Стоимость 1 м<sup>2</sup></span><br>
+			<span>6 547 руб.</span>
+		</span>
+		<span column="2">
+			<span>Полезная площадь</span><br>
+			<span>217 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Площадь застройки</span><br>
+			<span>146 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Стоимость проекта</span><br>
+			<span>Звоните</span>
+		</span>
+	</div>
+
+    </div>
+
+    <div class="modal-footer">
+      
+      <div row>
+      <span column='6'><a href="#mh1" class="button yellow" >Заказать строительство</a></span>
+      <span column='6'><a href="#mh2" class="button yellow" >Заказать проект</a></span>
+      </div>
+    </div>
+  </div>
+
+<!-- 08-r2 -->
+
+<div class="modal-container" id='m08-r2'>
+    <div class="modal-header">
+      ПС - 234
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+     <img data-src="img/section6/08/r2/t1-001.jpg" class='lazyload'>
+
+    <div class="card-like hide--sm">
+	    <span class="ui-sprite like pull-right"></span>
+	    <span class="text">Выгода!</span>
+	    
+	    <p>317 950 РУБ.</p>
+
+  </div>
+	<div row>
+		<div column="6" class='thumbs'>
+		<div row class='buttongroup'>
+				<span column="4">
+				<a href="#t1" class="button">Экстерьер</a></span>
+				<span column="4">
+				<a href="#t2" class="button">Планировка</a></span>
+				<span column="4">
+				<a href="#t3" class="button">3D план</a></span>
+			</div>
+			<img data-src="img/section6/08/r2/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/08/r2/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/08/r2/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/08/r2/thumbs/t1/004.jpg" class="lazyload">
+			
+		</div>
+		<div column="6" class='chars'>
+		<p>Стоимость первого этапа без фундамента</p>
+
+		<span>1 985 000</span> 
+		<span> 1 667 050 руб.</span>
+			
+			<ul>
+				<li><input type="radio" id='r1'name='group'> Оцилиндрованное бревно 200, 220, 240, 260, 300 мм</li>
+				<li><input type="radio" id='r2'  checked  name='group'> Профилированный брус 145, 175, 190, 245 мм</li>
+				<li><input type="radio" id='r3'  name='group'>Клееный брус 160, 200, 240 мм</li>
+				<li><input type="radio" id='r4' name='group'>Ручная рубка 300 – 380 мм</li>
+			</ul>
+		</div>
+	</div>
+	<div row class='greyrow'>
+		<span column="2">
+			<span>Общая площадь</span><br>
+			<span>234 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Габариты</span><br>
+			<span>14.5 x 11.0</span>
+		</span>
+		<span column="2">
+			<span>Стоимость 1 м<sup>2</sup></span><br>
+			<span>7 115 руб.</span>
+		</span>
+		<span column="2">
+			<span>Полезная площадь</span><br>
+			<span>217 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Площадь застройки</span><br>
+			<span>146 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Стоимость проекта</span><br>
+			<span>Звоните</span>
+		</span>
+	</div>
+
+    </div>
+
+    <div class="modal-footer">
+      
+      <div row>
+      <span column='6'><a href="#mh1" class="button yellow" >Заказать строительство</a></span>
+      <span column='6'><a href="#mh2" class="button yellow" >Заказать проект</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 08-r3 -->
+
+<div class="modal-container" id='m08-r3'>
+    <div class="modal-header">
+      ПС - 234
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+     <img data-src="img/section6/08/r3/t1-001.jpg" class='lazyload'>
+
+    <div class="card-like hide--sm">
+	    <span class="ui-sprite like pull-right"></span>
+	    <span class="text">Выгода!</span>
+	    
+	    <p>275 000 РУБ.</p>
+
+  </div>
+	<div row>
+		<div column="6" class='thumbs'>
+		<div row class='buttongroup'>
+				<span column="4">
+				<a href="#t1" class="button">Экстерьер</a></span>
+				<span column="4">
+				<a href="#t2" class="button">Планировка</a></span>
+				<span column="4">
+				<a href="#t3" class="button">3D план</a></span>
+			</div>
+			<img data-src="img/section6/08/r3/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/08/r3/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/08/r3/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/08/r3/thumbs/t1/004.jpg" class="lazyload">
+			
+		</div>
+		<div column="6" class='chars'>
+		<p>Стоимость первого этапа без фундамента</p>
+
+		<span>1 985 000</span> 
+		<span> 1 667 050 руб.</span>
+			
+			<ul>
+				<li><input type="radio" id='r1'name='group'> Оцилиндрованное бревно 200, 220, 240, 260, 300 мм</li>
+				<li><input type="radio" id='r2'  name='group'> Профилированный брус 145, 175, 190, 245 мм</li>
+				<li><input type="radio" id='r3'  checked  name='group'>Клееный брус 160, 200, 240 мм</li>
+				<li><input type="radio" id='r4' name='group'>Ручная рубка 300 – 380 мм</li>
+			</ul>
+		</div>
+	</div>
+	<div row class='greyrow'>
+		<span column="2">
+			<span>Общая площадь</span><br>
+			<span>234 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Габариты</span><br>
+			<span>14.5 x 11.0</span>
+		</span>
+		<span column="2">
+			<span>Стоимость 1 м<sup>2</sup></span><br>
+			<span>9 002 руб.</span>
+		</span>
+		<span column="2">
+			<span>Полезная площадь</span><br>
+			<span>217 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Площадь застройки</span><br>
+			<span>146 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Стоимость проекта</span><br>
+			<span>Звоните</span>
+		</span>
+	</div>
+
+    </div>
+
+    <div class="modal-footer">
+      
+      <div row>
+      <span column='6'><a href="#mh1" class="button yellow" >Заказать строительство</a></span>
+      <span column='6'><a href="#mh2" class="button yellow" >Заказать проект</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 08-r4 -->
+
+<div class="modal-container" id='m08-r4'>
+    <div class="modal-header">
+      ПС - 234
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+     <img data-src="img/section6/08/r4/t1-001.jpg" class='lazyload'>
+
+    <div class="card-like hide--sm">
+	    <span class="ui-sprite like pull-right"></span>
+	    <span class="text">Выгода!</span>
+	    
+	    <p>275 000 РУБ.</p>
+
+  </div>
+	<div row>
+		<div column="6" class='thumbs'>
+		<div row class='buttongroup'>
+				<span column="4">
+				<a href="#t1" class="button">Экстерьер</a></span>
+				<span column="4">
+				<a href="#t2" class="button">Планировка</a></span>
+				<span column="4">
+				<a href="#t3" class="button">3D план</a></span>
+			</div>
+			<img data-src="img/section6/08/r4/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/08/r4/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/08/r4/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/08/r4/thumbs/t1/004.jpg" class="lazyload">
+			
+		</div>
+		<div column="6" class='chars'>
+		<p>Стоимость первого этапа без фундамента</p>
+
+		<span></span> 
+		<span>Звоните</span>
+			
+			<ul>
+				<li><input type="radio" id='r1'name='group'> Оцилиндрованное бревно 200, 220, 240, 260, 300 мм</li>
+				<li><input type="radio" id='r2'  name='group'> Профилированный брус 145, 175, 190, 245 мм</li>
+				<li><input type="radio" id='r3'  name='group'>Клееный брус 160, 200, 240 мм</li>
+				<li><input type="radio" id='r4' checked  name='group'>Ручная рубка 300 – 380 мм</li>
+			</ul>
+		</div>
+	</div>
+	<div row class='greyrow'>
+		<span column="2">
+			<span>Общая площадь</span><br>
+			<span>234 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Габариты</span><br>
+			<span>14.5 x 11.0</span>
+		</span>
+		<span column="2">
+			<span>Стоимость 1 м<sup>2</sup></span><br>
+			<span>Звоните</span>
+		</span>
+		<span column="2">
+			<span>Полезная площадь</span><br>
+			<span>217 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Площадь застройки</span><br>
+			<span>146 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Стоимость проекта</span><br>
+			<span>Звоните</span>
+		</span>
+	</div>
+
+    </div>
+
+    <div class="modal-footer">
+      
+      <div row>
+      <span column='6'><a href="#mh1" class="button yellow" >Заказать строительство</a></span>
+      <span column='6'><a href="#mh2" class="button yellow" >Заказать проект</a></span>
+      </div>
+    </div>
+  </div>
+
+<!-- 9 house -->
+<!-- 09-r1 -->
+
+<div class="modal-container" id='m09-r1'>
+    <div class="modal-header">
+      ПР - 143
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+     <img data-src="img/section6/09/r1/t1-001.jpg" class='lazyload'>
+
+    <div class="card-like hide--sm">
+	    <span class="ui-sprite like pull-right"></span>
+	    <span class="text">Выгода!</span>
+	    
+	    <p>319 700 РУБ.</p>
+
+  </div>
+	<div row>
+		<div column="6" class='thumbs'>
+		<div row class='buttongroup'>
+				<span column="4">
+				<a href="#t1" class="button active">Экстерьер</a></span>
+				<span column="4">
+				<a href="#t2" class="button">Планировка</a></span>
+				<span column="4">
+				<a href="#t3" class="button">3D план</a></span>
+			</div>
+			<img data-src="img/section6/09/r1/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/09/r1/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/09/r1/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/09/r1/thumbs/t1/004.jpg" class="lazyload">
+			
+		</div>
+		<div column="6" class='chars'>
+		<p>Стоимость первого этапа без фундамента</p>
+
+		<span>1 315 000</span> 
+		<span> 995 300 руб.</span>
+			
+			<ul>
+				<li><input type="radio" id='r1' checked name='group'> Оцилиндрованное бревно 200, 220, 240, 260, 300 мм</li>
+				<li><input type="radio" id='r2'  name='group'> Профилированный брус 145, 175, 190, 245 мм</li>
+				<li><input type="radio" id='r3'  name='group'>Клееный брус 160, 200, 240 мм</li>
+				<li><input type="radio" id='r4' name='group'>Ручная рубка 300 – 380 мм</li>
+			</ul>
+		</div>
+	</div>
+	<div row class='greyrow'>
+		<span column="2">
+			<span>Общая площадь</span><br>
+			<span>143 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Габариты</span><br>
+			<span>11.0 x 9.0</span>
+		</span>
+		<span column="2">
+			<span>Стоимость 1 м<sup>2</sup></span><br>
+			<span>6 975 руб.</span>
+		</span>
+		<span column="2">
+			<span>Полезная площадь</span><br>
+			<span>131 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Площадь застройки</span><br>
+			<span>98 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Стоимость проекта</span><br>
+			<span>Звоните</span>
+		</span>
+	</div>
+
+    </div>
+
+    <div class="modal-footer">
+      
+      <div row>
+      <span column='6'><a href="#mh1" class="button yellow" >Заказать строительство</a></span>
+      <span column='6'><a href="#mh2" class="button yellow" >Заказать проект</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 09-r2 -->
+
+<div class="modal-container" id='m09-r2'>
+    <div class="modal-header">
+      ПР - 143
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+     <img data-src="img/section6/09/r2/t1-001.jpg" class='lazyload'>
+
+    <div class="card-like hide--sm">
+	    <span class="ui-sprite like pull-right"></span>
+	    <span class="text">Выгода!</span>
+	    
+	    <p>326 300 РУБ.</p>
+
+  </div>
+	<div row>
+		<div column="6" class='thumbs'>
+		<div row class='buttongroup'>
+				<span column="4">
+				<a href="#t1" class="button active">Экстерьер</a></span>
+				<span column="4">
+				<a href="#t2" class="button">Планировка</a></span>
+				<span column="4">
+				<a href="#t3" class="button">3D план</a></span>
+			</div>
+			<img data-src="img/section6/09/r2/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/09/r2/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/09/r2/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/09/r2/thumbs/t1/004.jpg" class="lazyload">
+			
+		</div>
+		<div column="6" class='chars'>
+		<p>Стоимость первого этапа без фундамента</p>
+
+		<span>1 335 000</span> 
+		<span>1 008 700 руб.</span>
+			
+			<ul>
+				<li><input type="radio" id='r1'name='group'> Оцилиндрованное бревно 200, 220, 240, 260, 300 мм</li>
+				<li><input type="radio" id='r2'  checked  name='group'> Профилированный брус 145, 175, 190, 245 мм</li>
+				<li><input type="radio" id='r3'  name='group'>Клееный брус 160, 200, 240 мм</li>
+				<li><input type="radio" id='r4' name='group'>Ручная рубка 300 – 380 мм</li>
+			</ul>
+		</div>
+	</div>
+	<div row class='greyrow'>
+		<span column="2">
+			<span>Общая площадь</span><br>
+			<span>143 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Габариты</span><br>
+			<span>11.0 x 9.0</span>
+		</span>
+		<span column="2">
+			<span>Стоимость 1 м<sup>2</sup></span><br>
+			<span>7 069 руб.</span>
+		</span>
+		<span column="2">
+			<span>Полезная площадь</span><br>
+			<span>131 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Площадь застройки</span><br>
+			<span>98 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Стоимость проекта</span><br>
+			<span>Звоните</span>
+		</span>
+	</div>
+
+    </div>
+
+    <div class="modal-footer">
+      
+      <div row>
+      <span column='6'><a href="#mh1" class="button yellow" >Заказать строительство</a></span>
+      <span column='6'><a href="#mh2" class="button yellow" >Заказать проект</a></span>
+      </div>
+    </div>
+  </div>
+
+<!-- 09-r3 -->
+
+<div class="modal-container" id='m09-r3'>
+    <div class="modal-header">
+      ПР - 143
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+     <img data-src="img/section6/09/r3/t1-001.jpg" class='lazyload'>
+
+    <div class="card-like hide--sm">
+	    <span class="ui-sprite like pull-right"></span>
+	    <span class="text">Выгода!</span>
+	    
+	    <p>345 300 РУБ.</p>
+
+  </div>
+	<div row>
+		<div column="6" class='thumbs'>
+		<div row class='buttongroup'>
+				<span column="4">
+				<a href="#t1" class="button active">Экстерьер</a></span>
+				<span column="4">
+				<a href="#t2" class="button">Планировка</a></span>
+				<span column="4">
+				<a href="#t3" class="button">3D план</a></span>
+			</div>
+			<img data-src="img/section6/09/r3/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/09/r3/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/09/r3/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/09/r3/thumbs/t1/004.jpg" class="lazyload">
+			
+		</div>
+		<div column="6" class='chars'>
+		<p>Стоимость первого этапа без фундамента</p>
+
+		<span>1 915 500</span> 
+		<span>1 570 500 руб.</span>
+			
+			<ul>
+				<li><input type="radio" id='r1'name='group'> Оцилиндрованное бревно 200, 220, 240, 260, 300 мм</li>
+				<li><input type="radio" id='r2'  name='group'> Профилированный брус 145, 175, 190, 245 мм</li>
+				<li><input type="radio" id='r3'  checked  name='group'>Клееный брус 160, 200, 240 мм</li>
+				<li><input type="radio" id='r4' name='group'>Ручная рубка 300 – 380 мм</li>
+			</ul>
+		</div>
+	</div>
+	<div row class='greyrow'>
+		<span column="2">
+			<span>Общая площадь</span><br>
+			<span>143 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Габариты</span><br>
+			<span>11.0 x 9.0</span>
+		</span>
+		<span column="2">
+			<span>Стоимость 1 м<sup>2</sup></span><br>
+			<span>11 006 руб.</span>
+		</span>
+		<span column="2">
+			<span>Полезная площадь</span><br>
+			<span>131 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Площадь застройки</span><br>
+			<span>98 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Стоимость проекта</span><br>
+			<span>Звоните</span>
+		</span>
+	</div>
+
+    </div>
+
+    <div class="modal-footer">
+      
+      <div row>
+      <span column='6'><a href="#mh1" class="button yellow" >Заказать строительство</a></span>
+      <span column='6'><a href="#mh2" class="button yellow" >Заказать проект</a></span>
+      </div>
+    </div>
+  </div>
+
+<!-- 09-r4 -->
+
+<div class="modal-container" id='m09-r4'>
+    <div class="modal-header">
+      ПР - 143
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+     <img data-src="img/section6/09/r4/t1-001.jpg" class='lazyload'>
+
+    <div class="card-like hide--sm">
+	    <span class="ui-sprite like pull-right"></span>
+	    <span class="text">Выгода!</span>
+	    
+	    <p>345 300 РУБ.</p>
+
+  </div>
+	<div row>
+		<div column="6" class='thumbs'>
+		<div row class='buttongroup'>
+				<span column="4">
+				<a href="#t1" class="button active">Экстерьер</a></span>
+				<span column="4">
+				<a href="#t2" class="button">Планировка</a></span>
+				<span column="4">
+				<a href="#t3" class="button">3D план</a></span>
+			</div>
+			<img data-src="img/section6/09/r4/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/09/r4/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/09/r4/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/09/r4/thumbs/t1/004.jpg" class="lazyload">
+			
+		</div>
+		<div column="6" class='chars'>
+		<p>Стоимость первого этапа без фундамента</p>
+
+		<span></span> 
+		<span>Звоните</span>
+			
+			<ul>
+				<li><input type="radio" id='r1'name='group'> Оцилиндрованное бревно 200, 220, 240, 260, 300 мм</li>
+				<li><input type="radio" id='r2'  name='group'> Профилированный брус 145, 175, 190, 245 мм</li>
+				<li><input type="radio" id='r3'  name='group'>Клееный брус 160, 200, 240 мм</li>
+				<li><input type="radio" id='r4'  checked name='group'>Ручная рубка 300 – 380 мм</li>
+			</ul>
+		</div>
+	</div>
+	<div row class='greyrow'>
+		<span column="2">
+			<span>Общая площадь</span><br>
+			<span>143 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Габариты</span><br>
+			<span>11.0 x 9.0</span>
+		</span>
+		<span column="2">
+			<span>Стоимость 1 м<sup>2</sup></span><br>
+			<span>Звоните</span>
+		</span>
+		<span column="2">
+			<span>Полезная площадь</span><br>
+			<span>131 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Площадь застройки</span><br>
+			<span>98 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Стоимость проекта</span><br>
+			<span>Звоните</span>
+		</span>
+	</div>
+
+    </div>
+
+    <div class="modal-footer">
+      
+      <div row>
+      <span column='6'><a href="#mh1" class="button yellow" >Заказать строительство</a></span>
+      <span column='6'><a href="#mh2" class="button yellow" >Заказать проект</a></span>
+      </div>
+    </div>
+  </div>  
+
+  <!-- 10 house -->
+<!-- 010-r1 -->
+
+<div class="modal-container" id='m010-r1'>
+    <div class="modal-header">
+      УТ - 131
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+     <img data-src="img/section6/010/r1/t1-001.jpg" class='lazyload'>
+
+    <div class="card-like hide--sm">
+	    <span class="ui-sprite like pull-right"></span>
+	    <span class="text">Выгода!</span>
+	    
+	    <p>238 490 РУБ.</p>
+
+  </div>
+	<div row>
+		<div column="6" class='thumbs'>
+		<div row class='buttongroup'>
+				<span column="4">
+				<a href="#t1" class="button active">Экстерьер</a></span>
+				<span column="4">
+				<a href="#t2" class="button">Планировка</a></span>
+				<span column="4">
+				<a href="#t3" class="button">3D план</a></span>
+			</div>
+			<img data-src="img/section6/010/r1/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/010/r1/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/010/r1/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/010/r1/thumbs/t1/004.jpg" class="lazyload">
+			
+		</div>
+		<div column="6" class='chars'>
+		<p>Стоимость первого этапа без фундамента</p>
+
+		<span>1 150 000</span> 
+		<span>950 510 руб.</span>
+			
+			<ul>
+				<li><input type="radio" id='r1' checked name='group'> Оцилиндрованное бревно 200, 220, 240, 260, 300 мм</li>
+				<li><input type="radio" id='r2'  name='group'> Профилированный брус 145, 175, 190, 245 мм</li>
+				<li><input type="radio" id='r3'  name='group'>Клееный брус 160, 200, 240 мм</li>
+				<li><input type="radio" id='r4' name='group'>Ручная рубка 300 – 380 мм</li>
+			</ul>
+		</div>
+	</div>
+	<div row class='greyrow'>
+		<span column="2">
+			<span>Общая площадь</span><br>
+			<span>131 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Габариты</span><br>
+			<span>9,0 х 9,2</span>
+		</span>
+		<span column="2">
+			<span>Стоимость 1 м<sup>2</sup></span><br>
+			<span>6 932 руб.</span>
+		</span>
+		<span column="2">
+			<span>Полезная площадь</span><br>
+			<span>118 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Площадь застройки</span><br>
+			<span>79 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Стоимость проекта</span><br>
+			<span>Звоните</span>
+		</span>
+	</div>
+
+    </div>
+
+    <div class="modal-footer">
+      
+      <div row>
+      <span column='6'><a href="#mh1" class="button yellow" >Заказать строительство</a></span>
+      <span column='6'><a href="#mh2" class="button yellow" >Заказать проект</a></span>
+      </div>
+    </div>
+  </div>
+
+
+<!-- 010-r2 -->
+
+<div class="modal-container" id='m010-r2'>
+    <div class="modal-header">
+      УТ - 131
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+     <img data-src="img/section6/010/r2/t1-001.jpg" class='lazyload'>
+
+    <div class="card-like hide--sm">
+	    <span class="ui-sprite like pull-right"></span>
+	    <span class="text">Выгода!</span>
+	    
+	    <p>283 710 РУБ.</p>
+
+  </div>
+	<div row>
+		<div column="6" class='thumbs'>
+		<div row class='buttongroup'>
+				<span column="4">
+				<a href="#t1" class="button active">Экстерьер</a></span>
+				<span column="4">
+				<a href="#t2" class="button">Планировка</a></span>
+				<span column="4">
+				<a href="#t3" class="button">3D план</a></span>
+			</div>
+			<img data-src="img/section6/010/r2/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/010/r2/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/010/r2/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/010/r2/thumbs/t1/004.jpg" class="lazyload">
+			
+		</div>
+		<div column="6" class='chars'>
+		<p>Стоимость первого этапа без фундамента</p>
+
+		<span>1 190 000</span> 
+		<span>906 290 руб.</span>
+			
+			<ul>
+				<li><input type="radio" id='r1'name='group'> Оцилиндрованное бревно 200, 220, 240, 260, 300 мм</li>
+				<li><input type="radio" id='r2'  checked  name='group'> Профилированный брус 145, 175, 190, 245 мм</li>
+				<li><input type="radio" id='r3'  name='group'>Клееный брус 160, 200, 240 мм</li>
+				<li><input type="radio" id='r4' name='group'>Ручная рубка 300 – 380 мм</li>
+			</ul>
+		</div>
+	</div>
+	<div row class='greyrow'>
+		<span column="2">
+			<span>Общая площадь</span><br>
+			<span>131 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Габариты</span><br>
+			<span>9,0 х 9,2</span>
+		</span>
+		<span column="2">
+			<span>Стоимость 1 м<sup>2</sup></span><br>
+			<span>6 892 руб.</span>
+		</span>
+		<span column="2">
+			<span>Полезная площадь</span><br>
+			<span>118 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Площадь застройки</span><br>
+			<span>79 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Стоимость проекта</span><br>
+			<span>Звоните</span>
+		</span>
+	</div>
+
+    </div>
+
+    <div class="modal-footer">
+      
+      <div row>
+      <span column='6'><a href="#mh1" class="button yellow" >Заказать строительство</a></span>
+      <span column='6'><a href="#mh2" class="button yellow" >Заказать проект</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 010-r3 -->
+
+  <div class="modal-container" id='m010-r3'>
+    <div class="modal-header">
+      УТ - 131
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+     <img data-src="img/section6/010/r3/t1-001.jpg" class='lazyload'>
+
+    <div class="card-like hide--sm">
+	    <span class="ui-sprite like pull-right"></span>
+	    <span class="text">Выгода!</span>
+	    
+	    <p>295 000 РУБ.</p>
+
+  </div>
+	<div row>
+		<div column="6" class='thumbs'>
+		<div row class='buttongroup'>
+				<span column="4">
+				<a href="#t1" class="button active">Экстерьер</a></span>
+				<span column="4">
+				<a href="#t2" class="button">Планировка</a></span>
+				<span column="4">
+				<a href="#t3" class="button">3D план</a></span>
+			</div>
+			<img data-src="img/section6/010/r3/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/010/r3/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/010/r3/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/010/r3/thumbs/t1/004.jpg" class="lazyload">
+			
+		</div>
+		<div column="6" class='chars'>
+		<p>Стоимость первого этапа без фундамента</p>
+
+		<span>1 781 710</span> 
+		<span>1 486 710 руб.</span>
+			
+			<ul>
+				<li><input type="radio" id='r1'name='group'> Оцилиндрованное бревно 200, 220, 240, 260, 300 мм</li>
+				<li><input type="radio" id='r2'  name='group'> Профилированный брус 145, 175, 190, 245 мм</li>
+				<li><input type="radio" id='r3'  checked  name='group'>Клееный брус 160, 200, 240 мм</li>
+				<li><input type="radio" id='r4' name='group'>Ручная рубка 300 – 380 мм</li>
+			</ul>
+		</div>
+	</div>
+	<div row class='greyrow'>
+		<span column="2">
+			<span>Общая площадь</span><br>
+			<span>131 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Габариты</span><br>
+			<span>9,0 х 9,2</span>
+		</span>
+		<span column="2">
+			<span>Стоимость 1 м<sup>2</sup></span><br>
+			<span>11 306 руб.</span>
+		</span>
+		<span column="2">
+			<span>Полезная площадь</span><br>
+			<span>118 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Площадь застройки</span><br>
+			<span>79 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Стоимость проекта</span><br>
+			<span>Звоните</span>
+		</span>
+	</div>
+
+    </div>
+
+    <div class="modal-footer">
+      
+      <div row>
+      <span column='6'><a href="#mh1" class="button yellow" >Заказать строительство</a></span>
+      <span column='6'><a href="#mh2" class="button yellow" >Заказать проект</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 010-r4 -->
+
+  <div class="modal-container" id='m010-r4'>
+    <div class="modal-header">
+      УТ - 131
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+     <img data-src="img/section6/010/r4/t1-001.jpg" class='lazyload'>
+
+    <div class="card-like hide--sm">
+	    <span class="ui-sprite like pull-right"></span>
+	    <span class="text">Выгода!</span>
+	    
+	    <p>295 000 РУБ.</p>
+
+  </div>
+	<div row>
+		<div column="6" class='thumbs'>
+		<div row class='buttongroup'>
+				<span column="4">
+				<a href="#t1" class="button active">Экстерьер</a></span>
+				<span column="4">
+				<a href="#t2" class="button">Планировка</a></span>
+				<span column="4">
+				<a href="#t3" class="button">3D план</a></span>
+			</div>
+			<img data-src="img/section6/010/r4/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/010/r4/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/010/r4/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/010/r4/thumbs/t1/004.jpg" class="lazyload">
+			
+		</div>
+		<div column="6" class='chars'>
+		<p>Стоимость первого этапа без фундамента</p>
+
+		<span></span> 
+		<span>Звоните</span>
+			
+			<ul>
+				<li><input type="radio" id='r1'name='group'> Оцилиндрованное бревно 200, 220, 240, 260, 300 мм</li>
+				<li><input type="radio" id='r2'  name='group'> Профилированный брус 145, 175, 190, 245 мм</li>
+				<li><input type="radio" id='r3'  name='group'>Клееный брус 160, 200, 240 мм</li>
+				<li><input type="radio" id='r4' checked  name='group'>Ручная рубка 300 – 380 мм</li>
+			</ul>
+		</div>
+	</div>
+	<div row class='greyrow'>
+		<span column="2">
+			<span>Общая площадь</span><br>
+			<span>131 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Габариты</span><br>
+			<span>9,0 х 9,2</span>
+		</span>
+		<span column="2">
+			<span>Стоимость 1 м<sup>2</sup></span><br>
+			<span>Звоните</span>
+		</span>
+		<span column="2">
+			<span>Полезная площадь</span><br>
+			<span>118 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Площадь застройки</span><br>
+			<span>79 м<sup>2</sup></span>
+		</span>
+		<span column="2">
+			<span>Стоимость проекта</span><br>
+			<span>Звоните</span>
+		</span>
+	</div>
+
+    </div>
+
+    <div class="modal-footer">
+      
+      <div row>
+      <span column='6'><a href="#mh1" class="button yellow" >Заказать строительство</a></span>
+      <span column='6'><a href="#mh2" class="button yellow" >Заказать проект</a></span>
+      </div>
+    </div>
+  </div>

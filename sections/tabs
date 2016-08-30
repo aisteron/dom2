@@ -1,25 +1,6 @@
-<style>
-.section6
-{
-	background-image: url(img/bg-green-texture.jpg);
-}
-</style>
-<h2>Готовые решения</h2>
-<div row class='buttonRow'>
-	<div column="3">
-		<a href="#m1" class="button active">Дома из бревна</a>
-	</div>
-	<div column="3">
-		<a href="#m2" class="button">Одноэтажные дома</a>
-	</div>
-	<div column="3">
-		<a href="#m3" class="button">Дома из бруса</a>
-	</div>
-	<div column="3">
-		<a href="#m1" class="button">Бани из бревна</a>
-	</div>
-</div>
-<div class="houses">
+<div id="tab-1">
+
+
 
 	<!-- 1 строка домов -->
 	<div row>
@@ -256,7 +237,7 @@
 
 		<div column="4">
 			<div class='inner' number="10" row>
-				<img src="img/section6/010/001.jpg">
+				<img src="img/section6/10/001.jpg">
 				<span class="ui-sprite hit"></span>
 				<div class="like">
 	                <span class="ui-sprite like-min pull-right"></span>
@@ -281,7 +262,7 @@
 
 		<div column="4">
 			<div class='inner' number="11" row>
-				<img src="img/section6/011/001.jpg">
+				<img src="img/section6/11/001.jpg">
 
 				<div class="like">
 	                <span class="ui-sprite like-min pull-right"></span>
@@ -304,7 +285,7 @@
 
 		<div column="4">
 			<div class='inner' number="12" row>
-				<img src="img/section6/012/001.jpg">
+				<img src="img/section6/12/001.jpg">
 				<span class="ui-sprite hit"></span>
 				<div class="like">
 	                <span class="ui-sprite like-min pull-right"></span>
@@ -328,149 +309,245 @@
 </div><!-- /4th house row-->
 
 
-</div> <!-- /div.houses-->
 
-
-
-<div id="s6h1" class="modal">
-	
 </div>
 
-<script>
+<!-- /tab-1 -->
 
-/*открываем попап*/
-var divIndex = {}; //глобальная переменная с номером контейнера
-//$("div[column='4'] .inner").click(function(){
+<!-- tab-2 -->
 
-$(document).on('click', 'div[column=\'4\'] .inner', function(){
-
-	//divIndex = $("div[column='4'] .inner").index(this) + 1;	
-	divIndex = $(this).attr('number');
-	console.log('Клик по контейнеру №'+divIndex);
-
-	window.location='#s6h1';//открываем modal попап
-
-	$('.modal').load('sections/solutions #m0'+divIndex+'-r1');
-
-});
-
-
-/*описываем хэндлеры для попапа*/
-
-/*работа с табами*/
-
-$(document).on('click', '.buttongroup a.button',function(e){
-	e.preventDefault();
-
-
-
-	/*цвет желтый табы*/
-	$('.buttongroup a.button').removeClass('active');
-	$(this).addClass('active');
-
-	/*получаем индекс радиокнопки*/
-	var Radio = $(".chars input[name='group']");
-	var indexRadio = Radio.index(Radio.filter(':checked')) +1;
-
-	/*получаем индекс табы*/
-	var indexButton = $('.buttongroup a.button').index(this) +1;
-	console.log('Клик по кнопке #'+indexButton);
-
-	$('.thumbs img').remove(); //удаляем все изображения из контейнера
-
-	if(indexButton==1)
-	{	//если это 1-я кнопка
-		for (var i = 1; i < 5; i++) 
-			{
+<div id="tab-2">
 	
-			var imgUrl = 'img/section6/0'+divIndex+'/r'+indexRadio+'/thumbs/t'+indexButton+'/00'+i+'.jpg'
 
-			$('.thumbs').append('<img src='+imgUrl+'>'); //то выводим 4 картинки
+	<!-- 1 строка домов -->
+	<div row>
 
-			}
+		<div column="4">
+		<div class='inner' number="13" row>
+			<img src="img/section6/013/001.jpg">
+			<span class="ui-sprite hit"></span>
+			<div class="like">
+                <span class="ui-sprite like-min pull-right"></span>
+                <span>выгода!</span>
+                <p><span>145 000 руб.</span></p>
+              </div>
+			<div row>
+				<p column="12">ДР - 64</p>
+				<p class="price" column='12'>
+                  <strong>64</strong> м<sup>2</sup>
+                  <span class="remove"><strong>1 171 000</strong></span>
+                  <span class="red"><strong>1 026 000 руб.</strong></span>
+                </p>
+				<p column="12">
+					<a href="#s6h1" class="button">Подробнее</a>
+				</p>
+			</div>
+		</div>	
+		</div>
 
-	} else
-	{
-		for (var i = 1; i < 3; i++) 
-		{ //а если, мать его, 2-я или 3-я, то 2 картинки
-			var imgUrl = 'img/section6/0'+divIndex+'/r'+indexRadio+'/thumbs/t'+indexButton+'/00'+i+'.jpg'
-
-			$('.thumbs').append('<img src='+imgUrl+'>'); 
-
-		}
-	}
-
-					
-	/*стиль к картинке*/
-
-	$('.thumbs img').first().addClass('active');
-
-
-})
-
-/*работа с превью изображений в попапе*/
-
-$(document).on('click', '.thumbs img', function(){
-
-		if ($(this).attr('src').length == 37)
-		{
-		var str = $(this).attr('src').slice(0,20);
-		str += $(this).attr('src').slice(27,37).replace('/','-');
-		console.log(str);
-		}
-
-		else 
-		{
-		var str = $(this).attr('src').slice(0,20);
-		str += $(this).attr('src').slice(27,36).replace('/','-');
-		console.log(str);
-		}
-
-		$('.modal-body img').first().attr('src', str);
+		<div column="4">
+		<div class='inner' number="14" row>
+			<img src="img/section6/014/001.jpg">
+			<span class="ui-sprite hit"></span>
+			<div class="like">
+                <span class="ui-sprite like-min pull-right"></span>
+                <span>выгода!</span>
+                <p><span>235 000 руб.</span></p>
+              </div>
+			<div row>
+				<p column="12">АС - 68</p>
+				<p class="price" column='12'>
+                  <strong>68</strong> м<sup>2</sup>
+                  <span class="remove"><strong>1 269 000</strong></span>
+                  <span class="red"><strong>1 034 000 руб.</strong></span>
+                </p>
+				<p column="12">
+					<a href="#s6h1" class="button">Подробнее</a>
+				</p>
+			</div>
+		</div>	
 		
-		/*стили*/
-		$('.thumbs img').removeClass('active');
-		$(this).addClass('active');
-})
+			
+		</div>
+		<div column="4">
 
-/*работа с радиокнопками*/
+		<div class='inner' number="15" row>
+			<img src="img/section6/015/001.jpg">
+			<span class="ui-sprite hit"></span>
+			<div class="like">
+                <span class="ui-sprite like-min pull-right"></span>
+                <span>выгода!</span>
+                <p><span>260 000 руб.</span></p>
+              </div>
+			<div row>
+				<p column="12">ГС - 78</p>
+				<p class="price" column='12'>
+                  <strong>78</strong> м<sup>2</sup>
+                  <span class="remove"><strong>1 430 000</strong></span>
+                  <span class="red"><strong>1 170 000 руб.</strong></span>
+                </p>
+				<p column="12">
+					<a href="#s6h1" class="button">Подробнее</a>
+				</p>
+			</div>
+		</div>	
+		</div>
+	</div>
 
-$(document).on('click', '.chars ul li', function(){
+	<!--2 house row-->
 
-	var index = $(".chars ul li").index(this)+1;
-		$(this).find("input[type='radio']").attr('checked');
-		console.log('Клик по радиокнопке №'+index);
-		$('.modal').load('sections/solutions #m0'+divIndex+'-r'+ index);
-})
+	<div row>
 
-
-
-
-$(".buttonRow a[href='#m2']").click(function(e){
-	e.preventDefault();
-	$('.houses').empty().load('sections/tabs #tab-2');
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 'закрываем' модальные окна по Esc*/
-
-$(document).keyup(function(e) {
-     if (e.keyCode == 27) { // escape key maps to keycode `27`
-        window.location='#close';
-    }
-});
+		<div column="4">
+			<div class='inner' number="16" row>
+				<img src="img/section6/016/001.jpg">
+				<span class="ui-sprite hit"></span>
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>175 000 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">ТР - 79</p>
+					<p class="price" column='12'>
+	                  <strong>79</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 266 000</strong></span>
+	                  <span class="red"><strong>1 091 000 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
 
 
-</script>
+
+		<div column="4">
+			<div class='inner' number="17" row>
+				<img src="img/section6/017/001.jpg">
+
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>320 000 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">СР - 104</p>
+					<p class="price" column='12'>
+	                  <strong>104</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 600 000</strong></span>
+	                  <span class="red"><strong>1 288 000 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+		<div column="4">
+			<div class='inner' number="18" row>
+				<img src="img/section6/018/001.jpg">
+				<span class="ui-sprite hit"></span>
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>380 000 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">ДР - 105</p>
+					<p class="price" column='12'>
+	                  <strong>105</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 752 000</strong></span>
+	                  <span class="red"><strong> 1 372 000 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+</div><!-- 2th house row-->
+
+<!--3 house row-->
+
+	<div row>
+
+		<div column="4">
+			<div class='inner' number="19" row>
+				<img src="img/section6/019/001.jpg">
+				<span class="ui-sprite hit"></span>
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>245 000 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">ДЖ - 124</p>
+					<p class="price" column='12'>
+	                  <strong>124</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 723 000</strong></span>
+	                  <span class="red"><strong>1 478 000 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+
+
+		<div column="4">
+			<div class='inner' number="20" row>
+				<img src="img/section6/020/001.jpg">
+
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>285 000 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">ЛС - 137</p>
+					<p class="price" column='12'>
+	                  <strong>137</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 935 200</strong></span>
+	                  <span class="red"><strong>1 650 200 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+		<div column="4">
+			<div class='inner' number="21" row>
+				<img src="img/section6/021/001.jpg">
+				<span class="ui-sprite hit"></span>
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>165 000 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">ЛС - 137</p>
+					<p class="price" column='12'>
+	                  <strong>137</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 015 200</strong></span>
+	                  <span class="red"><strong>1 650 200 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+</div><!-- /3th house row-->
+
+
+
+</div>
