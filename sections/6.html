@@ -23,7 +23,7 @@
 	<div row>
 
 		<div column="4">
-		<div class="inner" row>
+		<div class='inner' number="1" row>
 			<img src="img/section6/01/001.jpg">
 			<span class="ui-sprite hit"></span>
 			<div class="like">
@@ -46,7 +46,7 @@
 		</div>
 
 		<div column="4">
-		<div class="inner" row>
+		<div class='inner' number="2" row>
 			<img src="img/section6/02/001.jpg">
 			<span class="ui-sprite hit"></span>
 			<div class="like">
@@ -71,7 +71,7 @@
 		</div>
 		<div column="4">
 
-		<div class="inner" row>
+		<div class='inner' number="3" row>
 			<img src="img/section6/03/001.jpg">
 			<span class="ui-sprite hit"></span>
 			<div class="like">
@@ -99,7 +99,7 @@
 <div row>
 
 		<div column="4">
-			<div class="inner" row>
+			<div class='inner' number="4" row>
 				<img src="img/section6/04/001.jpg">
 				<span class="ui-sprite hit"></span>
 				<div class="like">
@@ -124,7 +124,7 @@
 
 
 		<div column="4">
-			<div class="inner" row>
+			<div class='inner' number="5" row>
 				<img src="img/section6/05/001.jpg">
 
 				<div class="like">
@@ -147,7 +147,7 @@
 		</div>
 
 		<div column="4">
-			<div class="inner" row>
+			<div class='inner' number="6" row>
 				<img src="img/section6/06/001.jpg">
 				<span class="ui-sprite hit"></span>
 				<div class="like">
@@ -186,7 +186,8 @@
 var divIndex = {}; //глабальная переменная с номером контейнера
 $("div[column='4'] .inner").click(function(){
 
-	divIndex = $("div[column='4'] .inner").index(this) + 1;	
+	//divIndex = $("div[column='4'] .inner").index(this) + 1;	
+	divIndex = $(this).attr('number');
 	console.log('Клик по контейнеру №'+divIndex);
 
 	window.location='#s6h1';//открываем modal попап
