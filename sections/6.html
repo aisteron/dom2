@@ -1,8 +1,16 @@
+
+<div container class="section6">
 <style>
-.section6
+.wrap6
 {
 	background-image: url(img/bg-green-texture.jpg);
-	min-height: 1400px
+	min-height: 1400px;
+}
+
+
+#mh1, #mh2 a[href='#close']
+{
+	font-size: 1.5em;
 }
 </style>
 <h2>Готовые решения</h2>
@@ -339,7 +347,7 @@
 <div id="mh1" class="modal modal--flat">
   <div class="modal-container">
     <div class="modal-header">
-      Modal Header
+    
 
       <a href="#close" class="modal-close">&times;</a>
     </div>
@@ -347,17 +355,49 @@
     <div class="modal-body">
 	      <form method="post">
 	  <fieldset>
-	    <legend>User Information</legend>
+	    <legend>Отправьте Ваш номер телефона:</legend>
 
 	    <p>
-	      <label for="name">Name:</label>
-	      <input type="text" name="name" placeholder="John Doe" />
+	      <label for="name">Имя:</label>
+	      <input type="text" name="name" placeholder="John Doe" required />
 	    </p>
 
 	    <p>
-	      <label for="email">Email:</label>
-	      <input type="email" name="email" placeholder="john_doe@example.com" />
+	      <label for="phone">Телефон:</label>
+	      <input type="text" name="phone" placeholder="+7 927 000 00 00" required/>
 	    </p>
+
+	   <input type="submit" value="Отправить" class="button--pill bg--success"> 
+	  </fieldset>
+	</form>
+    </div>
+
+  </div>
+</div>
+<div id="mh2" class="modal modal--flat">
+  <div class="modal-container">
+    <div class="modal-header">
+    
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+	      <form method="post">
+	  <fieldset>
+	    <legend>Отправьте Ваш номер телефона:</legend>
+
+	    <p>
+	      <label for="name">Имя:</label>
+	      <input type="text" name="name" placeholder="John Doe" required />
+	    </p>
+
+	    <p>
+	      <label for="phone">Телефон:</label>
+	      <input type="text" name="phone" placeholder="+7 927 000 00 00" required/>
+	    </p>
+
+	   <input type="submit" value="Отправить" class="button--pill bg--success"> 
 	  </fieldset>
 	</form>
     </div>
@@ -467,13 +507,13 @@ $(document).on('click', '.thumbs img', function(){
 })
 
 /*работа с радиокнопками*/
-
+var index = {};
 $(document).on('click', '.chars ul li', function(){
 
 	var index = $(".chars ul li").index(this)+1;
-		$(this).find("input[type='radio']").attr('checked');
+		//$(this).find("input[type='radio']").attr('checked');
 		console.log('Клик по радиокнопке №'+index);
-		$('.modal').load('sections/solutions #m0'+divIndex+'-r'+ index);
+	$('#s6h1').load('sections/solutions #m0'+divIndex+'-r'+ index);
 })
 
 
@@ -524,3 +564,4 @@ $(document).keyup(function(e) {
 
 
 </script>
+</div>
