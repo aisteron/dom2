@@ -16,7 +16,7 @@
 		<a href="#m3" class="button">Дома из бруса</a>
 	</div>
 	<div column="3">
-		<a href="#m1" class="button">Бани из бревна</a>
+		<a href="#m4" class="button">Бани из бревна</a>
 	</div>
 </div>
 <div class="houses">
@@ -340,11 +340,11 @@
 
 /*открываем попап*/
 var divIndex = {}; //глобальная переменная с номером контейнера
-//$("div[column='4'] .inner").click(function(){
+
 
 $(document).on('click', 'div[column=\'4\'] .inner', function(){
 
-	//divIndex = $("div[column='4'] .inner").index(this) + 1;	
+
 	divIndex = $(this).attr('number');
 	console.log('Клик по контейнеру №'+divIndex);
 
@@ -445,12 +445,26 @@ $(document).on('click', '.chars ul li', function(){
 
 
 
+/* работа с верхними кнопками */
+$(".buttonRow a[href='#m1']").click(function(e){
+	e.preventDefault();
+	$('.houses').empty().load('sections/tabs #tab-1');
+})
 
 $(".buttonRow a[href='#m2']").click(function(e){
 	e.preventDefault();
 	$('.houses').empty().load('sections/tabs #tab-2');
 })
 
+$(".buttonRow a[href='#m3']").click(function(e){
+	e.preventDefault();
+	$('.houses').empty().load('sections/tabs #tab-3');
+})
+
+$(".buttonRow a[href='#m4']").click(function(e){
+	e.preventDefault();
+	$('.houses').empty().load('sections/tabs #tab-4');
+})
 
 
 

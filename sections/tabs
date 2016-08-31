@@ -551,3 +551,634 @@
 
 
 </div>
+
+
+<!-- tab-3 -->
+
+<div id="tab-3">
+	
+
+	<!-- 1 строка домов -->
+	<div row>
+
+		<div column="4">
+		<div class='inner' number="22" row>
+			<img src="img/section6/022/001.jpg">
+			<span class="ui-sprite hit"></span>
+			<div class="like">
+                <span class="ui-sprite like-min pull-right"></span>
+                <span>выгода!</span>
+                <p><span>284 280 руб.</span></p>
+              </div>
+			<div row>
+				<p column="12">ДЛ - 156</p>
+				<p class="price" column='12'>
+                  <strong>156</strong> м<sup>2</sup>
+                  <span class="remove"><strong>1 390 000</strong></span>
+                  <span class="red"><strong>1 105 720 руб.</strong></span>
+                </p>
+				<p column="12">
+					<a href="#s6h1" class="button">Подробнее</a>
+				</p>
+			</div>
+		</div>	
+		</div>
+
+		<div column="4">
+		<div class='inner' number="23" row>
+			<img src="img/section6/023/001.jpg">
+			<span class="ui-sprite hit"></span>
+			<div class="like">
+                <span class="ui-sprite like-min pull-right"></span>
+                <span>выгода!</span>
+                <p><span>257 290 руб.</span></p>
+              </div>
+			<div row>
+				<p column="12">КО - 168</p>
+				<p class="price" column='12'>
+                  <strong>168</strong> м<sup>2</sup>
+                  <span class="remove"><strong>1 430 000</strong></span>
+                  <span class="red"><strong>1 172 710 руб.</strong></span>
+                </p>
+				<p column="12">
+					<a href="#s6h1" class="button">Подробнее</a>
+				</p>
+			</div>
+		</div>	
+		
+			
+		</div>
+		<div column="4">
+
+		<div class='inner' number="24" row>
+			<img src="img/section6/024/001.jpg">
+			<span class="ui-sprite hit"></span>
+			<div class="like">
+                <span class="ui-sprite like-min pull-right"></span>
+                <span>выгода!</span>
+                <p><span>339 260 руб.</span></p>
+              </div>
+			<div row>
+				<p column="12">КФ - 163</p>
+				<p class="price" column='12'>
+                  <strong>163</strong> м<sup>2</sup>
+                  <span class="remove"><strong>1 465 000</strong></span>
+                  <span class="red"><strong>1 125 740 руб.</strong></span>
+                </p>
+				<p column="12">
+					<a href="#s6h1" class="button">Подробнее</a>
+				</p>
+			</div>
+		</div>	
+		</div>
+	</div>
+
+	<!--2 house row-->
+
+	<div row>
+
+		<div column="4">
+			<div class='inner' number="25" row>
+				<img src="img/section6/025/001.jpg">
+				<span class="ui-sprite hit"></span>
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>388 880 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">ЗС - 159</p>
+					<p class="price" column='12'>
+	                  <strong>159</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 510 000</strong></span>
+	                  <span class="red"><strong>1 121 120 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+
+
+		<div column="4">
+			<div class='inner' number="26" row>
+				<img src="img/section6/026/001.jpg">
+
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>385 530 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">ДО - 196</p>
+					<p class="price" column='12'>
+	                  <strong>196</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 700 000</strong></span>
+	                  <span class="red"><strong>1 394 470 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+		<div column="4">
+			<div class='inner' number="27" row>
+				<img src="img/section6/027/001.jpg">
+				<span class="ui-sprite hit"></span>
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>322 890 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">НП - 138</p>
+					<p class="price" column='12'>
+	                  <strong>138</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 200 000</strong></span>
+	                  <span class="red"><strong>957 110 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+</div><!-- 2th house row-->
+
+<!--3 house row-->
+
+	<div row>
+
+		<div column="4">
+			<div class='inner' number="28" row>
+				<img src="img/section6/028/001.jpg">
+				<span class="ui-sprite hit"></span>
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>334 570 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">ОР - 170</p>
+					<p class="price" column='12'>
+	                  <strong>170</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 535 000</strong></span>
+	                  <span class="red"><strong>1 200 430 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+
+
+		<div column="4">
+			<div class='inner' number="29" row>
+				<img src="img/section6/029/001.jpg">
+
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>317 950 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">ПС - 234</p>
+					<p class="price" column='12'>
+	                  <strong>234</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 905 000</strong></span>
+	                  <span class="red"><strong>1 667 050 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+		<div column="4">
+			<div class='inner' number="30" row>
+				<img src="img/section6/030/001.jpg">
+				<span class="ui-sprite hit"></span>
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>326 300 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">ПР - 143</p>
+					<p class="price" column='12'>
+	                  <strong>143</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 335 000</strong></span>
+	                  <span class="red"><strong>1 008 700 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+</div><!-- /3th house row-->
+
+<!--4 house row-->
+
+	<div row>
+
+		<div column="4">
+			<div class='inner' number="31" row>
+				<img src="img/section6/031/001.jpg">
+				<span class="ui-sprite hit"></span>
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>283 710 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">УТ - 131</p>
+					<p class="price" column='12'>
+	                  <strong>131</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 190 000</strong></span>
+	                  <span class="red"><strong>906 290 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+
+
+		<div column="4">
+			<div class='inner' number="32" row>
+				<img src="img/section6/032/001.jpg">
+
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>335 430 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">ЮР - 164</p>
+					<p class="price" column='12'>
+	                  <strong>164</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 445 200</strong></span>
+	                  <span class="red"><strong>1 109 570 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+		<div column="4">
+			<div class='inner' number="33" row>
+				<img src="img/section6/033/001.jpg">
+				<span class="ui-sprite hit"></span>
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>396 270 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">ЮГ - 205</p>
+					<p class="price" column='12'>
+	                  <strong>205</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 020 200</strong></span>
+	                  <span class="red"><strong>1 423 730 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+</div><!-- /4th house row-->
+
+
+
+</div> <!-- /3 tab -->
+
+<!-- tab-4 -->
+
+<div id="tab-4">
+	
+
+	<!-- 1 строка домов -->
+	<div row>
+
+		<div column="4">
+		<div class='inner' number="34" row>
+			<img src="img/section6/034/001.jpg">
+			<span class="ui-sprite hit"></span>
+			<div class="like">
+                <span class="ui-sprite like-min pull-right"></span>
+                <span>выгода!</span>
+                <p><span>121 400 руб.</span></p>
+              </div>
+			<div row>
+				<p column="12">Б - 32</p>
+				<p class="price" column='12'>
+                  <strong>32</strong> м<sup>2</sup>
+                  <span class="remove"><strong>720 000</strong></span>
+                  <span class="red"><strong>598 600 руб.</strong></span>
+                </p>
+				<p column="12">
+					<a href="#s6h1" class="button">Подробнее</a>
+				</p>
+			</div>
+		</div>	
+		</div>
+
+		<div column="4">
+		<div class='inner' number="35" row>
+			<img src="img/section6/035/001.jpg">
+			<span class="ui-sprite hit"></span>
+			<div class="like">
+                <span class="ui-sprite like-min pull-right"></span>
+                <span>выгода!</span>
+                <p><span>126 530 руб.</span></p>
+              </div>
+			<div row>
+				<p column="12">Б - 34</p>
+				<p class="price" column='12'>
+                  <strong>34</strong> м<sup>2</sup>
+                  <span class="remove"><strong>745 000</strong></span>
+                  <span class="red"><strong>618 470 руб.</strong></span>
+                </p>
+				<p column="12">
+					<a href="#s6h1" class="button">Подробнее</a>
+				</p>
+			</div>
+		</div>	
+		
+			
+		</div>
+		<div column="4">
+
+		<div class='inner' number="36" row>
+			<img src="img/section6/036/001.jpg">
+			<span class="ui-sprite hit"></span>
+			<div class="like">
+                <span class="ui-sprite like-min pull-right"></span>
+                <span>выгода!</span>
+                <p><span>128 450 руб.</span></p>
+              </div>
+			<div row>
+				<p column="12">Б - 36</p>
+				<p class="price" column='12'>
+                  <strong>36</strong> м<sup>2</sup>
+                  <span class="remove"><strong>770 000</strong></span>
+                  <span class="red"><strong>649 550 руб.</strong></span>
+                </p>
+				<p column="12">
+					<a href="#s6h1" class="button">Подробнее</a>
+				</p>
+			</div>
+		</div>	
+		</div>
+	</div>
+
+	<!--2 house row-->
+
+	<div row>
+
+		<div column="4">
+			<div class='inner' number="37" row>
+				<img src="img/section6/037/001.jpg">
+				<span class="ui-sprite hit"></span>
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>157 800 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">Б - 38</p>
+					<p class="price" column='12'>
+	                  <strong>38</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>841 000</strong></span>
+	                  <span class="red"><strong>683 200 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+
+
+		<div column="4">
+			<div class='inner' number="38" row>
+				<img src="img/section6/038/001.jpg">
+
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>141 300 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">Б - 42</p>
+					<p class="price" column='12'>
+	                  <strong>42</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>846 000</strong></span>
+	                  <span class="red"><strong>704 700 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+		<div column="4">
+			<div class='inner' number="39" row>
+				<img src="img/section6/039/001.jpg">
+				<span class="ui-sprite hit"></span>
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>116 050 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">Б - 53</p>
+					<p class="price" column='12'>
+	                  <strong>53</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>894 000</strong></span>
+	                  <span class="red"><strong> 777 950 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+</div><!-- /2th house row-->
+
+<!--3 house row-->
+
+	<div row>
+
+		<div column="4">
+			<div class='inner' number="40" row>
+				<img src="img/section6/040/001.jpg">
+				<span class="ui-sprite hit"></span>
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>131 600 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">Б - 61</p>
+					<p class="price" column='12'>
+	                  <strong>61</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>930 000</strong></span>
+	                  <span class="red"><strong>798 400 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+
+
+		<div column="4">
+			<div class='inner' number="41" row>
+				<img src="img/section6/041/001.jpg">
+
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>141 850 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">Б - 64</p>
+					<p class="price" column='12'>
+	                  <strong>64</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>946 000</strong></span>
+	                  <span class="red"><strong>804 150 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+		<div column="4">
+			<div class='inner' number="42" row>
+				<img src="img/section6/042/001.jpg">
+				<span class="ui-sprite hit"></span>
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>144 600 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">Б - 68</p>
+					<p class="price" column='12'>
+	                  <strong>68</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>971 500</strong></span>
+	                  <span class="red"><strong>826 900 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+</div><!-- /3th house row-->
+
+<!--4 house row-->
+
+	<div row>
+
+		<div column="4">
+			<div class='inner' number="43" row>
+				<img src="img/section6/043/001.jpg">
+				<span class="ui-sprite hit"></span>
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>180 500 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">Б - 87</p>
+					<p class="price" column='12'>
+	                  <strong>87</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 012 000</strong></span>
+	                  <span class="red"><strong>831 500 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+
+
+		<div column="4">
+			<div class='inner' number="44" row>
+				<img src="img/section6/044/001.jpg">
+
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>185 800 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">Б - 104</p>
+					<p class="price" column='12'>
+	                  <strong>104</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 043 000</strong></span>
+	                  <span class="red"><strong>857 200 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+		<div column="4">
+			<div class='inner' number="45" row>
+				<img src="img/section6/045/001.jpg">
+				<span class="ui-sprite hit"></span>
+				<div class="like">
+	                <span class="ui-sprite like-min pull-right"></span>
+	                <span>выгода!</span>
+	                <p><span>190 650 руб.</span></p>
+	              </div>
+				<div row>
+					<p column="12">Б - 123</p>
+					<p class="price" column='12'>
+	                  <strong>123</strong> м<sup>2</sup>
+	                  <span class="remove"><strong>1 009 000</strong></span>
+	                  <span class="red"><strong>898 350 руб.</strong></span>
+	                </p>
+					<p column="12">
+						<a href="#s6h1" class="button">Подробнее</a>
+					</p>
+				</div>
+			</div>	
+		</div>
+
+</div><!-- /4th house row-->
+
+
+
+</div> <!-- /4 tab -->
