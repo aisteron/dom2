@@ -270,10 +270,25 @@
 			{
 				background-color: #ffe675;
 			}
+
+			@media only screen and (max-width:890px){
+
+       		line-height:27px;
+       		padding: 0.2em;
+    		}
 		}
 		a.button.active
 		{
 			background-color: #ffd619;
+		}
+
+		div[column='3']
+		{
+			@media only screen and (max-width:890px){
+       		float:left;
+       		width: 25%;
+       		  
+    		}
 		}
 	}
 	.houses
@@ -300,6 +315,10 @@
 			display: block;
 			margin:0 auto;
 			position: relative;
+			&:hover
+			{
+				cursor:pointer;
+			}
 			
 
 			div[row]
@@ -396,6 +415,12 @@
 	{
 		width:890px;
 
+		 @media only screen and (max-width:890px){
+       	width:97%;
+    	}
+
+
+
 		.card-like {
 	    position: absolute;
 	    top: 48px;
@@ -438,6 +463,13 @@
 	{
 		padding:0px;
 
+		img[data-src *='t1-001']
+		{
+			@media only screen and (max-width:890px){
+       		width:100%;
+    		}
+		}
+
 		.thumbs
 		{
 
@@ -455,6 +487,14 @@
 			.buttongroup
 			{
 				padding:1em;
+
+				span[column='4']
+				{
+					@media only screen and (max-width:890px){
+       				float:left;
+       				width:33%;
+    				}
+				}
 			}
 			img
 			{
@@ -484,7 +524,7 @@
 			span 
 			{
 				font-size: 1.8em;
-				padding-right: 1em;
+				padding-left: 1em;
 			}
 			span:nth-of-type(1)
 			{

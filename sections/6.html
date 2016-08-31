@@ -2,6 +2,7 @@
 .section6
 {
 	background-image: url(img/bg-green-texture.jpg);
+	min-height: 1400px
 }
 </style>
 <h2>Готовые решения</h2>
@@ -332,9 +333,46 @@
 
 
 
-<div id="s6h1" class="modal">
-	
+<div id="s6h1" class="modal"></div>
+
+
+<div id="mh1" class="modal modal--flat">
+  <div class="modal-container">
+    <div class="modal-header">
+      Modal Header
+
+      <a href="#close" class="modal-close">&times;</a>
+    </div>
+
+    <div class="modal-body">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget bibendum eros. Integer rhoncus pretium orci ut sagittis. Proin sollicitudin sapien eu dui imperdiet, et viverra enim dignissim.</p>
+    </div>
+
+    <div class="modal-footer">
+      <p>Modal Footer</p>
+    </div>
+  </div>
 </div>
+
+<script>	
+$(document).on('click', '.modal-footer a', function(){
+	document.location = '#close'
+})
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <script>
 
@@ -449,31 +487,34 @@ $(document).on('click', '.chars ul li', function(){
 $(".buttonRow a[href='#m1']").click(function(e){
 	e.preventDefault();
 	$('.houses').empty().load('sections/tabs #tab-1');
+	$('.buttonRow a').removeClass('active');
+	$(this).addClass('active');
+
 })
 
 $(".buttonRow a[href='#m2']").click(function(e){
 	e.preventDefault();
 	$('.houses').empty().load('sections/tabs #tab-2');
+	$('.buttonRow a').removeClass('active');
+	$(this).addClass('active');
+
 })
 
 $(".buttonRow a[href='#m3']").click(function(e){
 	e.preventDefault();
 	$('.houses').empty().load('sections/tabs #tab-3');
+	$('.buttonRow a').removeClass('active');
+	$(this).addClass('active');
+
 })
 
 $(".buttonRow a[href='#m4']").click(function(e){
 	e.preventDefault();
 	$('.houses').empty().load('sections/tabs #tab-4');
+	$('.buttonRow a').removeClass('active');
+	$(this).addClass('active');
+
 })
-
-
-
-
-
-
-
-
-
 
 
 

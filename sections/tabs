@@ -237,7 +237,7 @@
 
 		<div column="4">
 			<div class='inner' number="10" row>
-				<img src="img/section6/10/001.jpg">
+				<img src="img/section6/010/001.jpg">
 				<span class="ui-sprite hit"></span>
 				<div class="like">
 	                <span class="ui-sprite like-min pull-right"></span>
@@ -262,7 +262,7 @@
 
 		<div column="4">
 			<div class='inner' number="11" row>
-				<img src="img/section6/11/001.jpg">
+				<img src="img/section6/011/001.jpg">
 
 				<div class="like">
 	                <span class="ui-sprite like-min pull-right"></span>
@@ -285,7 +285,7 @@
 
 		<div column="4">
 			<div class='inner' number="12" row>
-				<img src="img/section6/12/001.jpg">
+				<img src="img/section6/012/001.jpg">
 				<span class="ui-sprite hit"></span>
 				<div class="like">
 	                <span class="ui-sprite like-min pull-right"></span>

@@ -75,7 +75,7 @@
     <div class="modal-footer">
       
       <div row>
-      <span column='6'><a href="#" class="button yellow" >Заказать строительство</a></span>
+      <span column='6'><a href="#mh1" class="button yellow" >Заказать строительство</a></span>
       <span column='6'><a href="#mh2" class="button yellow" >Заказать проект</a></span>
       </div>
     </div>
