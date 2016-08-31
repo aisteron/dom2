@@ -345,30 +345,25 @@
     </div>
 
     <div class="modal-body">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget bibendum eros. Integer rhoncus pretium orci ut sagittis. Proin sollicitudin sapien eu dui imperdiet, et viverra enim dignissim.</p>
+	      <form method="post">
+	  <fieldset>
+	    <legend>User Information</legend>
+
+	    <p>
+	      <label for="name">Name:</label>
+	      <input type="text" name="name" placeholder="John Doe" />
+	    </p>
+
+	    <p>
+	      <label for="email">Email:</label>
+	      <input type="email" name="email" placeholder="john_doe@example.com" />
+	    </p>
+	  </fieldset>
+	</form>
     </div>
 
-    <div class="modal-footer">
-      <p>Modal Footer</p>
-    </div>
   </div>
 </div>
-
-<script>	
-$(document).on('click', '.modal-footer a', function(){
-	document.location = '#close'
-})
-
-</script>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -388,7 +383,7 @@ $(document).on('click', 'div[column=\'4\'] .inner', function(){
 
 	window.location='#s6h1';//открываем modal попап
 
-	$('.modal').load('sections/solutions #m0'+divIndex+'-r1');
+	$('#s6h1').load('sections/solutions #m0'+divIndex+'-r1');
 
 });
 
