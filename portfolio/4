@@ -19,8 +19,8 @@
 			</div>
 		</div>
 		<div row>
-		<div column="4">Старая цена <br><span> 1 439 000 руб.</span></div>	
-		<div column="4">Цена по акции <br><span>1 087 280 руб</span>.</div>
-		<div column="4"><a href="#modal" class="button">Заказать</a></div>
+		<div column="4">Старая цена <br><span class='oldp'> 1 439 000 руб.</span></div>	
+		<div column="4">Цена по акции <br><span class='newp'>1 087 280 руб</span>.</div>
+		<div column="4"><a href="#mh1" class="button">Заказать</a></div>
 		</div>
 	

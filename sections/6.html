@@ -28,6 +28,15 @@
 		<a href="#m4" class="button">Бани из бревна</a>
 	</div>
 </div>
+
+<p>
+    <select>
+      <option name="m1">Дома из бревна</option>
+      <option name="m2">Одноэтажные дома</option>
+      <option name="m3">Дома из бруса</option>
+      <option name="m4">Бани из бревна</option>
+    </select>
+  </p>
 <div class="houses">
 
 	<!-- 1 строка домов -->
@@ -449,7 +458,7 @@ $(document).on('click', '.buttongroup a.button',function(e){
 	var indexButton = $('.buttongroup a.button').index(this) +1;
 	console.log('Клик по кнопке #'+indexButton);
 
-	$('.thumbs img').remove(); //удаляем все изображения из контейнера
+	$('.section6 .thumbs img').remove(); //удаляем все изображения из контейнера
 
 	if(indexButton==1)
 	{	//если это 1-я кнопка
@@ -458,7 +467,7 @@ $(document).on('click', '.buttongroup a.button',function(e){
 	
 			var imgUrl = 'img/section6/0'+divIndex+'/r'+indexRadio+'/thumbs/t'+indexButton+'/00'+i+'.jpg'
 
-			$('.thumbs').append('<img src='+imgUrl+'>'); //то выводим 4 картинки
+			$('.section6 .thumbs').append('<img src='+imgUrl+'>'); //то выводим 4 картинки
 
 			}
 
@@ -468,7 +477,7 @@ $(document).on('click', '.buttongroup a.button',function(e){
 		{ //а если, мать его, 2-я или 3-я, то 2 картинки
 			var imgUrl = 'img/section6/0'+divIndex+'/r'+indexRadio+'/thumbs/t'+indexButton+'/00'+i+'.jpg'
 
-			$('.thumbs').append('<img src='+imgUrl+'>'); 
+			$('.section6 .thumbs').append('<img src='+imgUrl+'>'); 
 
 		}
 	}
@@ -548,6 +557,31 @@ $(".buttonRow a[href='#m4']").click(function(e){
 	$('.houses').empty().load('sections/tabs #tab-4');
 	$('.buttonRow a').removeClass('active');
 	$(this).addClass('active');
+
+})
+
+/*работа с select*/
+
+$('select').change(function(){
+var a = $('select option:selected').attr('name');
+
+switch (a) {
+  case 'm1':
+$('.houses').empty().load('sections/tabs #tab-1');
+    break
+  case 'm2':
+$('.houses').empty().load('sections/tabs #tab-2');
+    break
+  case 'm3':
+$('.houses').empty().load('sections/tabs #tab-3');
+    break
+  case 'm4':
+$('.houses').empty().load('sections/tabs #tab-4');
+    break
+  default:
+    console.warn('Я таких значений не знаю')
+}
+
 
 })
 

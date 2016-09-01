@@ -287,7 +287,7 @@
 				<a href="#t2" class="button">Планировка</a></span>
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
-			</div>
+		</div>
 			<img data-src="img/section6/01/r4/thumbs/t1/001.jpg" class="lazyload active">
 			<img data-src="img/section6/01/r4/thumbs/t1/002.jpg" class="lazyload">
 			<img data-src="img/section6/01/r4/thumbs/t1/003.jpg" class="lazyload">
@@ -367,18 +367,19 @@
   </div>
 	<div row>
 		<div column="6" class='thumbs'>
-			<img data-src="img/section6/02/r1/thumbs/t1/001.jpg" class="lazyload active">
-			<img data-src="img/section6/02/r1/thumbs/t1/002.jpg" class="lazyload">
-			<img data-src="img/section6/02/r1/thumbs/t1/003.jpg" class="lazyload">
-			<img data-src="img/section6/02/r1/thumbs/t1/004.jpg" class="lazyload">
 			<div row class='buttongroup'>
 				<span column="4">
-				<a href="#t1" class="button">Экстерьер</a></span>
+				<a href="#t1" class="button active">Экстерьер</a></span>
 				<span column="4">
 				<a href="#t2" class="button">Планировка</a></span>
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
 			</div>
+			<img data-src="img/section6/02/r1/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/02/r1/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/02/r1/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/02/r1/thumbs/t1/004.jpg" class="lazyload">
+			
 		</div>
 		<div column="6" class='chars'>
 		<p>Стоимость первого этапа без фундамента</p>
@@ -450,11 +451,7 @@
   </div>
 	<div row>
 		<div column="6" class='thumbs'>
-			<img data-src="img/section6/02/r2/thumbs/t1/001.jpg" class="lazyload active">
-			<img data-src="img/section6/02/r2/thumbs/t1/002.jpg" class="lazyload">
-			<img data-src="img/section6/02/r2/thumbs/t1/003.jpg" class="lazyload">
-			<img data-src="img/section6/02/r2/thumbs/t1/004.jpg" class="lazyload">
-			<div row class='buttongroup'>
+		<div row class='buttongroup'>
 				<span column="4">
 				<a href="#t1" class="button">Экстерьер</a></span>
 				<span column="4">
@@ -462,6 +459,11 @@
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
 			</div>
+			<img data-src="img/section6/02/r2/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/02/r2/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/02/r2/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/02/r2/thumbs/t1/004.jpg" class="lazyload">
+			
 		</div>
 		<div column="6" class='chars'>
 		<p>Стоимость первого этапа без фундамента</p>
@@ -535,11 +537,7 @@
   </div>
 	<div row>
 		<div column="6" class='thumbs'>
-			<img data-src="img/section6/02/r3/thumbs/t1/001.jpg" class="lazyload active">
-			<img data-src="img/section6/02/r3/thumbs/t1/002.jpg" class="lazyload">
-			<img data-src="img/section6/02/r3/thumbs/t1/003.jpg" class="lazyload">
-			<img data-src="img/section6/02/r3/thumbs/t1/004.jpg" class="lazyload">
-			<div row class='buttongroup'>
+		<div row class='buttongroup'>
 				<span column="4">
 				<a href="#t1" class="button">Экстерьер</a></span>
 				<span column="4">
@@ -547,6 +545,11 @@
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
 			</div>
+			<img data-src="img/section6/02/r3/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/02/r3/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/02/r3/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/02/r3/thumbs/t1/004.jpg" class="lazyload">
+			
 		</div>
 		<div column="6" class='chars'>
 		
@@ -623,11 +626,7 @@
   </div>
 	<div row>
 		<div column="6" class='thumbs'>
-			<img data-src="img/section6/02/r4/thumbs/t1/001.jpg" class="lazyload active">
-			<img data-src="img/section6/02/r4/thumbs/t1/002.jpg" class="lazyload">
-			<img data-src="img/section6/02/r4/thumbs/t1/003.jpg" class="lazyload">
-			<img data-src="img/section6/02/r4/thumbs/t1/004.jpg" class="lazyload">
-			<div row class='buttongroup'>
+		<div row class='buttongroup'>
 				<span column="4">
 				<a href="#t1" class="button">Экстерьер</a></span>
 				<span column="4">
@@ -635,6 +634,12 @@
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
 			</div>
+
+			<img data-src="img/section6/02/r4/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/02/r4/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/02/r4/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/02/r4/thumbs/t1/004.jpg" class="lazyload">
+			
 		</div>
 		<div column="6" class='chars'>
 		<p>Стоимость первого этапа без фундамента</p>
@@ -708,18 +713,19 @@
   </div>
 	<div row>
 		<div column="6" class='thumbs'>
-			<img data-src="img/section6/03/r1/thumbs/t1/001.jpg" class="lazyload active">
-			<img data-src="img/section6/03/r1/thumbs/t1/002.jpg" class="lazyload">
-			<img data-src="img/section6/03/r1/thumbs/t1/003.jpg" class="lazyload">
-			<img data-src="img/section6/03/r1/thumbs/t1/004.jpg" class="lazyload">
-			<div row class='buttongroup'>
+		<div row class='buttongroup'>
 				<span column="4">
-				<a href="#t1" class="button">Экстерьер</a></span>
+				<a href="#t1" class="button active">Экстерьер</a></span>
 				<span column="4">
 				<a href="#t2" class="button">Планировка</a></span>
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
 			</div>
+			<img data-src="img/section6/03/r1/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/03/r1/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/03/r1/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/03/r1/thumbs/t1/004.jpg" class="lazyload">
+			
 		</div>
 		<div column="6" class='chars'>
 		<p>Стоимость первого этапа без фундамента</p>
@@ -794,11 +800,7 @@
   </div>
 	<div row>
 		<div column="6" class='thumbs'>
-			<img data-src="img/section6/03/r2/thumbs/t1/001.jpg" class="lazyload active">
-			<img data-src="img/section6/03/r2/thumbs/t1/002.jpg" class="lazyload">
-			<img data-src="img/section6/03/r2/thumbs/t1/003.jpg" class="lazyload">
-			<img data-src="img/section6/03/r2/thumbs/t1/004.jpg" class="lazyload">
-			<div row class='buttongroup'>
+		<div row class='buttongroup'>
 				<span column="4">
 				<a href="#t1" class="button">Экстерьер</a></span>
 				<span column="4">
@@ -806,6 +808,11 @@
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
 			</div>
+			<img data-src="img/section6/03/r2/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/03/r2/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/03/r2/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/03/r2/thumbs/t1/004.jpg" class="lazyload">
+			
 		</div>
 		<div column="6" class='chars'>
 		<p>Стоимость первого этапа без фундамента</p>
@@ -879,18 +886,21 @@
   </div>
 	<div row>
 		<div column="6" class='thumbs'>
-			<img data-src="img/section6/03/r3/thumbs/t1/001.jpg" class="lazyload active">
-			<img data-src="img/section6/03/r3/thumbs/t1/002.jpg" class="lazyload">
-			<img data-src="img/section6/03/r3/thumbs/t1/003.jpg" class="lazyload">
-			<img data-src="img/section6/03/r3/thumbs/t1/004.jpg" class="lazyload">
+
 			<div row class='buttongroup'>
 				<span column="4">
-				<a href="#t1" class="button">Экстерьер</a></span>
+				<a href="#t1" class="button active">Экстерьер</a></span>
 				<span column="4">
 				<a href="#t2" class="button">Планировка</a></span>
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
 			</div>
+
+			<img data-src="img/section6/03/r3/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/03/r3/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/03/r3/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/03/r3/thumbs/t1/004.jpg" class="lazyload">
+			
 		</div>
 		<div column="6" class='chars'>
 		<p>Стоимость первого этапа без фундамента</p>
@@ -964,11 +974,7 @@
   </div>
 	<div row>
 		<div column="6" class='thumbs'>
-			<img data-src="img/section6/03/r4/thumbs/t1/001.jpg" class="lazyload active">
-			<img data-src="img/section6/03/r4/thumbs/t1/002.jpg" class="lazyload">
-			<img data-src="img/section6/03/r4/thumbs/t1/003.jpg" class="lazyload">
-			<img data-src="img/section6/03/r4/thumbs/t1/004.jpg" class="lazyload">
-			<div row class='buttongroup'>
+		<div row class='buttongroup'>
 				<span column="4">
 				<a href="#t1" class="button">Экстерьер</a></span>
 				<span column="4">
@@ -976,6 +982,11 @@
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
 			</div>
+			<img data-src="img/section6/03/r4/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/03/r4/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/03/r4/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/03/r4/thumbs/t1/004.jpg" class="lazyload">
+			
 		</div>
 		<div column="6" class='chars'>
 		<p>Стоимость первого этапа без фундамента</p>
@@ -1049,11 +1060,7 @@
   </div>
 	<div row>
 		<div column="6" class='thumbs'>
-			<img data-src="img/section6/04/r1/thumbs/t1/001.jpg" class="lazyload active">
-			<img data-src="img/section6/04/r1/thumbs/t1/002.jpg" class="lazyload">
-			<img data-src="img/section6/04/r1/thumbs/t1/003.jpg" class="lazyload">
-			<img data-src="img/section6/04/r1/thumbs/t1/004.jpg" class="lazyload">
-			<div row class='buttongroup'>
+		<div row class='buttongroup'>
 				<span column="4">
 				<a href="#t1" class="button">Экстерьер</a></span>
 				<span column="4">
@@ -1061,6 +1068,11 @@
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
 			</div>
+			<img data-src="img/section6/04/r1/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/04/r1/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/04/r1/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/04/r1/thumbs/t1/004.jpg" class="lazyload">
+			
 		</div>
 		<div column="6" class='chars'>
 		<p>Стоимость первого этапа без фундамента</p>
@@ -1134,11 +1146,7 @@
   </div>
 	<div row>
 		<div column="6" class='thumbs'>
-			<img data-src="img/section6/04/r2/thumbs/t1/001.jpg" class="lazyload active">
-			<img data-src="img/section6/04/r2/thumbs/t1/002.jpg" class="lazyload">
-			<img data-src="img/section6/04/r2/thumbs/t1/003.jpg" class="lazyload">
-			<img data-src="img/section6/04/r2/thumbs/t1/004.jpg" class="lazyload">
-			<div row class='buttongroup'>
+		<div row class='buttongroup'>
 				<span column="4">
 				<a href="#t1" class="button">Экстерьер</a></span>
 				<span column="4">
@@ -1146,6 +1154,11 @@
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
 			</div>
+			<img data-src="img/section6/04/r2/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/04/r2/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/04/r2/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/04/r2/thumbs/t1/004.jpg" class="lazyload">
+			
 		</div>
 		<div column="6" class='chars'>
 		<p>Стоимость первого этапа без фундамента</p>
@@ -1219,11 +1232,7 @@
   </div>
 	<div row>
 		<div column="6" class='thumbs'>
-			<img data-src="img/section6/04/r3/thumbs/t1/001.jpg" class="lazyload active">
-			<img data-src="img/section6/04/r3/thumbs/t1/002.jpg" class="lazyload">
-			<img data-src="img/section6/04/r3/thumbs/t1/003.jpg" class="lazyload">
-			<img data-src="img/section6/04/r3/thumbs/t1/004.jpg" class="lazyload">
-			<div row class='buttongroup'>
+		<div row class='buttongroup'>
 				<span column="4">
 				<a href="#t1" class="button">Экстерьер</a></span>
 				<span column="4">
@@ -1231,6 +1240,11 @@
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
 			</div>
+			<img data-src="img/section6/04/r3/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/04/r3/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/04/r3/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/04/r3/thumbs/t1/004.jpg" class="lazyload">
+			
 		</div>
 		<div column="6" class='chars'>
 		<p>Стоимость первого этапа без фундамента</p>
@@ -1304,11 +1318,7 @@
   </div>
 	<div row>
 		<div column="6" class='thumbs'>
-			<img data-src="img/section6/04/r4/thumbs/t1/001.jpg" class="lazyload active">
-			<img data-src="img/section6/04/r4/thumbs/t1/002.jpg" class="lazyload">
-			<img data-src="img/section6/04/r4/thumbs/t1/003.jpg" class="lazyload">
-			<img data-src="img/section6/04/r4/thumbs/t1/004.jpg" class="lazyload">
-			<div row class='buttongroup'>
+		<div row class='buttongroup'>
 				<span column="4">
 				<a href="#t1" class="button">Экстерьер</a></span>
 				<span column="4">
@@ -1316,6 +1326,11 @@
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
 			</div>
+			<img data-src="img/section6/04/r4/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/04/r4/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/04/r4/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/04/r4/thumbs/t1/004.jpg" class="lazyload">
+			
 		</div>
 		<div column="6" class='chars'>
 		<p>Стоимость первого этапа без фундамента</p>
@@ -1390,11 +1405,7 @@
   </div>
 	<div row>
 		<div column="6" class='thumbs'>
-			<img data-src="img/section6/05/r1/thumbs/t1/001.jpg" class="lazyload active">
-			<img data-src="img/section6/05/r1/thumbs/t1/002.jpg" class="lazyload">
-			<img data-src="img/section6/05/r1/thumbs/t1/003.jpg" class="lazyload">
-			<img data-src="img/section6/05/r1/thumbs/t1/004.jpg" class="lazyload">
-			<div row class='buttongroup'>
+		<div row class='buttongroup'>
 				<span column="4">
 				<a href="#t1" class="button">Экстерьер</a></span>
 				<span column="4">
@@ -1402,6 +1413,11 @@
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
 			</div>
+			<img data-src="img/section6/05/r1/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/05/r1/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/05/r1/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/05/r1/thumbs/t1/004.jpg" class="lazyload">
+			
 		</div>
 		<div column="6" class='chars'>
 		<p>Стоимость первого этапа без фундамента</p>
@@ -1476,11 +1492,7 @@
   </div>
 	<div row>
 		<div column="6" class='thumbs'>
-			<img data-src="img/section6/05/r2/thumbs/t1/001.jpg" class="lazyload active">
-			<img data-src="img/section6/05/r2/thumbs/t1/002.jpg" class="lazyload">
-			<img data-src="img/section6/05/r2/thumbs/t1/003.jpg" class="lazyload">
-			<img data-src="img/section6/05/r2/thumbs/t1/004.jpg" class="lazyload">
-			<div row class='buttongroup'>
+		<div row class='buttongroup'>
 				<span column="4">
 				<a href="#t1" class="button">Экстерьер</a></span>
 				<span column="4">
@@ -1488,6 +1500,11 @@
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
 			</div>
+			<img data-src="img/section6/05/r2/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/05/r2/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/05/r2/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/05/r2/thumbs/t1/004.jpg" class="lazyload">
+			
 		</div>
 		<div column="6" class='chars'>
 		<p>Стоимость первого этапа без фундамента</p>
@@ -1562,11 +1579,7 @@
   </div>
 	<div row>
 		<div column="6" class='thumbs'>
-			<img data-src="img/section6/05/r3/thumbs/t1/001.jpg" class="lazyload active">
-			<img data-src="img/section6/05/r3/thumbs/t1/002.jpg" class="lazyload">
-			<img data-src="img/section6/05/r3/thumbs/t1/003.jpg" class="lazyload">
-			<img data-src="img/section6/05/r3/thumbs/t1/004.jpg" class="lazyload">
-			<div row class='buttongroup'>
+		<div row class='buttongroup'>
 				<span column="4">
 				<a href="#t1" class="button">Экстерьер</a></span>
 				<span column="4">
@@ -1574,6 +1587,11 @@
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
 			</div>
+			<img data-src="img/section6/05/r3/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/05/r3/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/05/r3/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/05/r3/thumbs/t1/004.jpg" class="lazyload">
+			
 		</div>
 		<div column="6" class='chars'>
 		<p>Стоимость первого этапа без фундамента</p>
@@ -1648,11 +1666,7 @@
   </div>
 	<div row>
 		<div column="6" class='thumbs'>
-			<img data-src="img/section6/05/r4/thumbs/t1/001.jpg" class="lazyload active">
-			<img data-src="img/section6/05/r4/thumbs/t1/002.jpg" class="lazyload">
-			<img data-src="img/section6/05/r4/thumbs/t1/003.jpg" class="lazyload">
-			<img data-src="img/section6/05/r4/thumbs/t1/004.jpg" class="lazyload">
-			<div row class='buttongroup'>
+		<div row class='buttongroup'>
 				<span column="4">
 				<a href="#t1" class="button">Экстерьер</a></span>
 				<span column="4">
@@ -1660,6 +1674,11 @@
 				<span column="4">
 				<a href="#t3" class="button">3D план</a></span>
 			</div>
+			<img data-src="img/section6/05/r4/thumbs/t1/001.jpg" class="lazyload active">
+			<img data-src="img/section6/05/r4/thumbs/t1/002.jpg" class="lazyload">
+			<img data-src="img/section6/05/r4/thumbs/t1/003.jpg" class="lazyload">
+			<img data-src="img/section6/05/r4/thumbs/t1/004.jpg" class="lazyload">
+			
 		</div>
 		<div column="6" class='chars'>
 		<p>Стоимость первого этапа без фундамента</p>

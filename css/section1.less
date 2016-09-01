@@ -1,0 +1,58 @@
+/* background setup */
+.background {
+    background-repeat:no-repeat;
+    /* custom background-position */
+    background-position:50% 50%;
+    /* ie8- graceful degradation */
+    background-position:50% 50%9 !important;
+}
+
+
+/* fullscreen setup */
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+}
+body
+{
+	font-family: Arial, sans-serif;
+}
+.fullscreen
+{
+	background-image:url('http://dom4000.ru/img/ui/bg-home-white-1600x900.jpg');
+}
+.fullscreen,
+.content-a {
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+.fullscreen.overflow,
+.fullscreen.overflow .content-a {
+    height:auto;
+    min-height:100%;
+}
+
+/* content centering styles */
+.content-a {
+    display:table;
+}
+.content-b {
+    display:table-cell;
+    position:relative;
+    vertical-align:middle;
+    text-align:center;
+
+    h1
+    {
+    	color:#fff;
+    	text-transform: uppercase;
+    	font-weight:900;
+    	font-size: 2em;
+
+    }
+    h2
+    {
+    	color:#fff;
+    }
+}

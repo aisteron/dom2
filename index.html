@@ -9,155 +9,295 @@
 
   <title>Concise Template</title>
 
-  <link rel="stylesheet" type="text/css" media="screen" href="css/concise.min.css" />
-  <link rel="stylesheet" type="text/css" media="screen" href="css/concise-ui.min.css" />
-  <style meta-data='вынес из скомпилированного less все что относится к первой секции'>
-  html,
-body {
-  height: 100%;
+  <!-- <link rel="stylesheet" type="text/css" media="screen" href="css/concise.min.css" /> -->
+  <!-- <link rel="stylesheet" type="text/css" media="screen" href="css/concise-ui.min.css" /> -->
+  <script>
+    /*! loadCSS: load a CSS file asynchronously. [c]2016 @scottjehl, Filament Group, Inc. Licensed MIT */
+    (function(w){
+      "use strict";
+      /* exported loadCSS */
+      var loadCSS = function( href, before, media ){
+        // Arguments explained:
+        // `href` [REQUIRED] is the URL for your CSS file.
+        // `before` [OPTIONAL] is the element the script should use as a reference for injecting our stylesheet <link> before
+          // By default, loadCSS attempts to inject the link after the last stylesheet or script in the DOM. However, you might desire a more specific location in your document.
+        // `media` [OPTIONAL] is the media type or query of the stylesheet. By default it will be 'all'
+        var doc = w.document;
+        var ss = doc.createElement( "link" );
+        var ref;
+        if( before ){
+          ref = before;
+        }
+        else {
+          var refs = ( doc.body || doc.getElementsByTagName( "head" )[ 0 ] ).childNodes;
+          ref = refs[ refs.length - 1];
+        }
+
+        var sheets = doc.styleSheets;
+        ss.rel = "stylesheet";
+        ss.href = href;
+        // temporarily set media to something inapplicable to ensure it'll fetch without blocking render
+        ss.media = "only x";
+
+        // wait until body is defined before injecting link. This ensures a non-blocking load in IE11.
+        function ready( cb ){
+          if( doc.body ){
+            return cb();
+          }
+          setTimeout(function(){
+            ready( cb );
+          });
+        }
+        // Inject link
+          // Note: the ternary preserves the existing behavior of "before" argument, but we could choose to change the argument to "after" in a later release and standardize on ref.nextSibling for all refs
+          // Note: `insertBefore` is used instead of `appendChild`, for safety re: http://www.paulirish.com/2011/surefire-dom-element-insertion/
+        ready( function(){
+          ref.parentNode.insertBefore( ss, ( before ? ref : ref.nextSibling ) );
+        });
+        // A method (exposed on return object for external use) that mimics onload by polling until document.styleSheets until it includes the new sheet.
+        var onloadcssdefined = function( cb ){
+          var resolvedHref = ss.href;
+          var i = sheets.length;
+          while( i-- ){
+            if( sheets[ i ].href === resolvedHref ){
+              return cb();
+            }
+          }
+          setTimeout(function() {
+            onloadcssdefined( cb );
+          });
+        };
+
+        function loadCB(){
+          if( ss.addEventListener ){
+            ss.removeEventListener( "load", loadCB );
+          }
+          ss.media = media || "all";
+        }
+
+        // once loaded, set link's media back to `all` so that the stylesheet applies once it loads
+        if( ss.addEventListener ){
+          ss.addEventListener( "load", loadCB);
+        }
+        ss.onloadcssdefined = onloadcssdefined;
+        onloadcssdefined( loadCB );
+        return ss;
+      };
+      // commonjs
+      if( typeof exports !== "undefined" ){
+        exports.loadCSS = loadCSS;
+      }
+      else {
+        w.loadCSS = loadCSS;
+      }
+    }( typeof global !== "undefined" ? global : this ));
+
+
+
+
+
+
+
+
+      loadCSS( "css/concise.min.css" );
+      loadCSS( "css/concise-ui.min.css" );
+      loadCSS( "css/custom.css" );
+    </script>
+  <style>
+  html, body {
+  margin:0;
+  padding:0;
+  height:100%
 }
-.siteHeader {
-  border-bottom: 1px solid #eee;
-  display: none;
-  position: fixed;
-  background-color: #fff;
-  z-index: 1200;
-  margin-left: -15px;
-}
-.siteHeader a {
-  color: #ffad00;
-}
-.siteHeader ul li {
-  color: #111;
-}
-.logo {
-  font-size: 22px;
-  margin-bottom: 0;
-}
-.nav {
-  text-align: right;
-}
-.nav li {
-  display: inline;
-  line-height: 4;
-  margin-left: 25px;
-}
-.nav li:first-of-type {
-  margin-left: 0;
-}
-.top-img {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-image: url(http://localhost/dom2/img/screen1bg1600.jpg);
-  background-size: cover;
-  background-color: #ccc;
-  z-index: -1;
-}
-.section1 {
-  color: #fff;
-  height:100%;	
-}
-.section1 div[row] span[column='6']:nth-child(2) {
-  text-align: center;
-  line-height: 87%;
-  padding-top: 2em;
-}
-.section1 div[row] span[column='6']:nth-child(2) p:nth-child(2) {
-  font-size: 2em;
-}
-.section1 div[row] span[column='6']:nth-child(2) .yellow,
-.section1 div[row]:nth-of-type(3) span[column='12'] form input[type='submit'],
-.section4 div[column='6 +1'] a.button,
-.section6 .modal-footer a.button,
-.section7 button,
-.section10 form input[type='submit'],
-.section13 input[type='submit'] {
-  background-color: #ffd619;
-  border-radius: 6px;
-  color: #222;
-}
-.section1 div[row] span[column='6']:nth-child(2) .yellow:hover {
-  background-color: #ffad00;
-}
-.section1 div[row] span[column='6']:nth-child(1) img {
-  float: right;
-}
-.section1 div[row]:nth-of-type(3) span[column='12'] form {
-  text-align: center;
-}
-.section1 div[row]:nth-of-type(3) span[column='12'] form input[type='text'] {
-  padding: 1.6em;
-}
-.section1 div[row]:nth-of-type(3) span[column='12'] form input[type='submit'],
-.section13 input[type='submit'] {
-  color: #111;
-  /*жесть, вот это extend, реально сидел 2*/
-}
-.section1 div[row]:nth-of-type(3) span[column='12'] form input[type='submit']:hover {
-  background-color: #ffad00;
-}
-.section1 div[row]:nth-of-type(3) h1,
-.section1 div[row]:nth-of-type(3) h2 {
-  text-align: center;
-  color: #fff;
-}
-.section1 div[row]:nth-of-type(3) h1 {
-  text-transform: uppercase;
+body { font-family:Arial, sans-serif }
+.intro .inner h1, p { margin:0 0 2em; }
+.intro .inner h1, p { text-align:center; color:#fff;}
+.intro .inner h1 
+{font-size:2.5em; 
+text-transform: uppercase;
+font-weight:900;
+line-height:100%;
 }
 
-  </style>
+.ltel
+{
+float:right;
+text-align: center;
+}
+.ltel p
+{
+  line-height: 110%;
+  margin:0;
+  font-size: 0.7em;
+}
+.ltel button
+{
+  background-color: #ffd619;
+  padding:1em;
+  border-radius: 6px;
+}
+.logo
+{
+  float:left;
+}
+.ltel .ptel
+{
+font-size: 1.3em;
+}
+
+.intro .inner {
+  display:table-cell;
+  vertical-align:middle;
+  width:100%;
+  max-width:none;
+}
+.content {
+  padding:10px;
+  //background:rgba(255,255,255,0.4);
+  max-width:680px;
+  margin:auto;
+}
+.inner {
+  max-width:600px;
+  margin:auto;
+  font-size:140%;
+  line-height:1.6;
+  padding:10px
+}
+.page {
+  width:80%;
+  margin:auto;
+}
+.page .inner p { padding:2em 0 0 }
+.media {
+  width:100%;
+  padding-top:56.2%;
+  position:relative;
+  background:red
+}
+.media img {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+}
+
+@media only screen and (max-width:400px)
+  {
+      .intro 
+      {
+    background-color:#ccc !important;
+    }
+    }
+
+    @media only screen and (min-width:480px)
+  {
+      .intro 
+      {
+    background:url(img/bg960.jpg) no-repeat 50% 50%;
+    }
+    
+    }
+
+.intro {
+  display:table;
+  height:100%;
+  width:100%;
+  margin:auto;
+  
+  background-size:cover;
+}    
+.topform
+{
+  text-align:center;
+}
+.topform input
+{
+  padding:1em;
+  border-radius:6px;
+  margin:0.2em;
+}
+
+.topform input[type='submit']
+{
+  background-color: #ffd619;
+}
+.topform input[type='submit']:hover
+{
+      background-color: #ffad00;
+}
+
+
+@media only screen and (max-width:480px)
+  {
+.topform input
+    {
+      display:block;
+      margin:0 auto;
+    }
+
+    .intro .inner h1 {
+      text-transform: none;
+      font-weight: 600;
+      color:#333;
+      font-size:1em;
+    }
+    .intro .inner p   
+    {
+      color:#333;
+    }
+
+    .ltel p {
+    font-size:0.6em;
+    line-height:120%;
+    }
+    .logo
+    {
+      float:none;
+      display: block;
+      margin:0 auto;
+    }
+    .ltel
+    {
+      display:block;
+      float:none;
+    }
+  }
+</style>  
 </head>
 
 <body>
-<div container class="section1" >
-		
-	<header container class="siteHeader">
-    <div row>
-      <h1 column="4" class="logo">Wood House Group</h1>
 
-      <nav column="8" class="nav">
+  <div class="intro">
+    <div class="inner">
+        <div class="content">
+            <p class="logo"><img src="img/logo.png" alt="logo whg"></p>
+            <div class="ltel">
+              <p>КОНСУЛЬТАЦИИ С 09:00 ДО 21:00, БЕЗ ВЫХОДНЫХ</p>
+              <p class="ptel">+7 (843) 288-80-23</p>
+              <p>ЗАПИСАТЬСЯ НА ВСТРЕЧУ ПО ТЕЛЕФОНУ</p>
+              <button>Заказать звонок</button>
+            </div>
+            <div style="clear:both"></div>
+            <h1>Строительство домов
+            из оцилиндрованного бревна
+            и клееного бруса</h1>
+            <p>Сохраняем специальные зимние цены до 1 октября.
+            Скидка на отдельные проекты до 250 000 рублей.</p>
 
-        <ul>
-          <li><a href="#sH">Заказать звонок</a></li>
-          <li>+375 29 000 00 00</li>
-        </ul>
-      </nav>
+            <form class="topform">
+              <input type="text" placeholder='Ваше имя' required>
+              <input type="text" placeholder='Ваше телефон' required>
+              <input type="submit" value="Отправить">
+            </form>
+        </div>
     </div>
-  </header>
+  </div>
 
-  <div class="top-img"></div>
-
-	  <div row>
-		  <span column="6">
-		  	<img src="img/logo-hi.png" alt="logo whg">
-		  </span>
-		  <span column="6">
-		  	<p>КОНСУЛЬТАЦИИ С 09:00 ДО 21:00, БЕЗ ВЫХОДНЫХ</p>
-			<p>+7 (987) 172-94-56</p>
-			<p>ЗАПИСАТЬСЯ НА ВСТРЕЧУ ПО ТЕЛЕФОНУ</p>
-			<a href="#modal1" class="button yellow" id='yellow'>Перезвоните мне</a>
-		  </span>
-	  </div>
-
-
-	  <div row>
-	  	
-	  		<h1 column='+3 6'>Строительство домов из оцилиндрованного бревна и клееного бруса</h1>
-	  		<h2 column='+3 6'>Сохраняем специальные зимние цены до 1 июня скидка на отдельные проекты до 250 000 рублей.</h2>
-			<span column="12">
-	  		<form class="form--inline">
-	  			<input type="text" name="name" placeholder="Ваше имя" />
-	  			<input type="text" name="phone" placeholder="+375 29 536 00 00" />
-	  			<input type="submit" value="Отправить">
-	  		</form>
-	  	</span>	
-	  </div>
- </div>
-
+<!--
 <div container class="section2">
 <h1 column="12">Мы строим дома, которые</h1>
 	<div row>
@@ -180,41 +320,65 @@ body {
 	</div>
 </div>
 
-<div container class="section3 lazyload" data-include='sections/3().html'></div>
+<div container class="section3 lazyload" data-include='sections/3.html'></div>
 
-<div container class="section4 lazyload" data-include='sections/4().html'></div>
+<div class="wrap4 lazyload" data-include='sections/4.html'></div>
 
-<div container class="section5 lazyload" data-include='sections/5().html'></div>
+<div container class="section5 lazyload" data-include='sections/5.html'></div>
 
 <div class="wrap6 lazyload" data-include='sections/6.html'></div>
 
-<div container class="section7 lazyload" data-include='sections/7().html'></div>
+<div container class="section7 lazyload" data-include='sections/7.html'></div>
 
-<div container class="section8 lazyload" data-include='sections/8().html'></div>
+<div container class="section8 lazyload" data-include='sections/8.html'></div>
 
-<div container class="section9 lazyload" data-include='sections/9().html'></div>
+<div container class="section9 lazyload" data-include='sections/9.html'></div>
 
-<!--div class="wrap10">
-<div container class="section10 lazyload" data-include='sections/10().html'></div>
-</div-->
-<div class="wrap10 lazyload" data-include='sections/10().html'></div>
+<div class="wrap10 lazyload" data-include='sections/10.html'></div>
 
+<div container class="section11 lazyload" data-include='sections/11.html'></div>
 
-<div container class="section11 lazyload" data-include='sections/11().html'></div>
-
-<div container class="section12 map lazyload" data-include='sections/12().html'>
+<div container class="section12 map lazyload" data-include='sections/12.html'>
 </div>
 
-<div container class="section13 lazyload" data-include='sections/13().html'></div>
+<div container class="section13 lazyload" data-include='sections/13.html'></div>
 
+-->
+<script>
+  function getJquery()
+  {
+    var tag = document.createElement("script");
+    tag.src = "js/jquery-2.2.4.min.js";
+    document.getElementsByTagName("head")[0].appendChild(tag);
+    console.log('jquery loaded')
+  }
 
+  function getLazysizes()
+  {
+    var tag = document.createElement("script");
+    tag.src = "js/lazysizes.min.js";
+    document.getElementsByTagName("head")[0].appendChild(tag);
+    console.log('lazysizes loaded')
+  }
 
-<link rel="stylesheet/less" type="text/css" media="screen" href="css/custom.less" />
-  <script src='js/less.min.js'></script>
-  <script src='js/lazysizes.min.js'></script>
-  <script src='js/ls.include.min.js'></script>
-  <script src='js/jquery-2.2.4.min.js'></script>
-  <script>
+  function getInclude()
+  {
+    var tag = document.createElement("script");
+    tag.src = "js/ls.include.min.js";
+    document.getElementsByTagName("head")[0].appendChild(tag);
+    console.log('lazysizes loaded')
+  }
+
+setTimeout(getJquery, 2000);
+setTimeout(getLazysizes, 2000);
+setTimeout(getInclude, 2000);
+
+</script>
+  <!--link rel="stylesheet/less" type="text/css" media="screen" href="css/custom.less" /-->
+  <!--script src='js/less.min.js'></script-->
+
+  
+<!--script>
   	function getBodyScrollTop()
 {
 return self.pageYOffset || (document.documentElement && document.documentElement.scrollTop) || (document.body && document.body.scrollTop);
@@ -228,6 +392,6 @@ if (top>=200){
 })
 
 
-  </script>
+  </script-->
 </body>
 </html>
