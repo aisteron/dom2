@@ -9,8 +9,6 @@
 
   <title>Concise Template</title>
 
-  <!-- <link rel="stylesheet" type="text/css" media="screen" href="css/concise.min.css" /> -->
-  <!-- <link rel="stylesheet" type="text/css" media="screen" href="css/concise-ui.min.css" /> -->
   <script>
     /*! loadCSS: load a CSS file asynchronously. [c]2016 @scottjehl, Filament Group, Inc. Licensed MIT */
     (function(w){
@@ -119,6 +117,14 @@ font-weight:900;
 line-height:100%;
 }
 
+@media only screen and (max-width: 810px)
+{
+  .intro .inner h1 
+  {
+    font-size:2.0em;
+  }
+}
+
 .ltel
 {
 float:right;
@@ -138,6 +144,7 @@ text-align: center;
   line-height: 10px;
   font-size: 0.65em;
   color:#333;
+  margin:1em;
 }
 .logo
 {
@@ -224,6 +231,14 @@ font-size: 1.3em;
   padding:1em;
   border-radius:6px;
   margin:0.2em;
+  width:inherit;
+}
+@media only screen and (max-width: 810px){
+  .topform input
+  {
+        display: block;
+    margin: 0.4em auto;
+  }
 }
 
 .topform input[type='submit']
@@ -232,6 +247,7 @@ font-size: 1.3em;
   line-height: 10px;
   font-size: 0.65em;
   color:#333;
+
 }
 .topform input[type='submit']:hover
 {
@@ -244,7 +260,7 @@ font-size: 1.3em;
 .topform input
     {
       display:block;
-      margin:0 auto;
+      margin:0.4em auto;
     }
 
     .intro .inner h1 {
@@ -360,6 +376,7 @@ font-size: 1.3em;
   {
     var tag = document.createElement("script");
     tag.src = "js/jquery-2.2.4.min.js";
+    tag.setAttribute('onload',"jqloaded()");
     document.getElementsByTagName("head")[0].appendChild(tag);
     console.log('jquery loaded')
   }
@@ -377,13 +394,16 @@ font-size: 1.3em;
     var tag = document.createElement("script");
     tag.src = "js/ls.include.min.js";
     document.getElementsByTagName("head")[0].appendChild(tag);
-    console.log('lazysizes loaded')
+    console.log('lazysizes include plugin loaded')
   }
 
 setTimeout(getJquery, 2000);
 setTimeout(getLazysizes, 2000);
 setTimeout(getInclude, 2000);
-
+function jqloaded()
+{
+  console.log('fired! set u script there');
+}
 </script>
   <!--link rel="stylesheet/less" type="text/css" media="screen" href="css/custom.less" /-->
   <!--script src='js/less.min.js'></script-->
