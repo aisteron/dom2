@@ -47,6 +47,10 @@
     width: 50%;
   }
 }
+.section2 div[column='3']
+{
+  text-align: center;
+}
 .section2 div[column='3'] span[class*=icon] {
   width: 140px;
   height: 140px;
@@ -54,8 +58,9 @@
   vertical-align: top;
   border-radius: 10px;
   background: url('http://localhost/dom2/img/icon-white-on-green-140.jpg') no-repeat;
-  display: block;
-  margin: 0 auto;
+}
+.section2 div[column='3'] span.icon1 {
+  background-position: 0 0;
 }
 .section2 div[column='3'] span.icon2 {
   background-position: -145px 0;
