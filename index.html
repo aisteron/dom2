@@ -171,7 +171,7 @@ font-size: 1.3em;
   max-width:680px;
   margin:auto;
 }
-.inner {
+.intro .inner {
   max-width:600px;
   margin:auto;
   font-size:140%;
@@ -299,11 +299,66 @@ font-size: 1.3em;
       float:none;
     }
   }
+</style>
+<style>
+  .floatHeader
+  {
+    position: fixed;
+    background-color: #ccc;
+    width: 100%;
+    height: 30px;
+  }
+  .siteName
+  {
+    float:left;
+    padding-left: 1em;
+  }
+  .SiteNumber
+  {
+    float:right;
+    padding-right: 1em;
+    transition:1s;
+  }
+  .floatInner
+  {
+    padding-top:6px;
+  }
+  @media only screen and (min-width: 960px)
+  {
+      .floatInner
+    {
+      width:960px;
+      margin: 0 auto;
+      background-color: #eee;
+      height:30px;
+    }
+  }
+
+   @media only screen and (max-width: 960px)
+  {
+      .floatInner
+    {
+      width:100%;
+      margin: 0 auto;
+      background-color: #eee;
+      height:30px;
+    }
+  } 
+  
 </style>  
 </head>
 
 <body>
-
+<div class="floatHeader">
+  <div class="floatInner">
+    <div class="siteName">
+      <span>Wood House Group</span>
+    </div>
+    <div class="SiteNumber">
+      <span>+7 (987) 172-94-56</span>
+    </div>
+  </div>
+</div>
   <div class="intro">
     <div class="inner">
         <div class="content">
@@ -356,7 +411,7 @@ font-size: 1.3em;
 	</div>
 </div>
 
-<div container class="section3 lazyload" data-include='sections/3.html'></div>
+<div class="wrap3 lazyload" data-include='sections/3.html'></div>
 
 <div class="wrap4 lazyload" data-include='sections/4.html'></div>
 
@@ -447,7 +502,20 @@ function jqloaded()
   $('#mh1').css('display','block');
   $('.ltel button').click(function(){
     window.location.href='#mh1';
-  })
+  });
+
+/*после загрузки видео, почему-то съезжает телефон вправо. За этот костыль прошу меня понять и простить -)*/
+ $(window).scroll(function(){
+if($(window).width()<400)
+{
+
+  if ($('.SiteNumber').offset().left !=182)
+  {
+  $('.SiteNumber').css('padding-right','6em')
+  }
+}
+  
+ })
 }
 </script>
 
