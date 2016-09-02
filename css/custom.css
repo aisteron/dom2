@@ -28,13 +28,10 @@
 .section2 h1,
 .section3 h2,
 .section4 h2,
-.section5 h2,
 .section6 h2,
 .section7 h2[column='12'],
-.section8 h2,
-.section9 h2,
-.section10 h2,
-.section11 h2 {
+.section8 h2
+ {
   text-transform: uppercase;
   color: #333;
   text-align: center;
@@ -221,6 +218,10 @@ body > div.wrap4.lazyloaded > div > div > div:nth-child(5)
   margin-left: 0px;
 }
 /*section5*/
+.section5 h2
+{
+  text-align: center;
+}
 .section5 h3[grey] {
   color: #ccc;
   text-align: center;
@@ -581,6 +582,7 @@ body > div.wrap4.lazyloaded > div > div > div:nth-child(5)
 /*section9*/
 .section9 h2 {
   color: #111;
+  text-align: center;
 }
 .section9 p {
   text-align: center;
@@ -597,6 +599,7 @@ body > div.wrap4.lazyloaded > div > div > div:nth-child(5)
 /*section10*/
 .section10 h2 {
   color: #fff;
+  text-align: center;
 }
 .section10 h3 {
   text-align: center;
@@ -623,6 +626,7 @@ body > div.wrap4.lazyloaded > div > div > div:nth-child(5)
 /*section11*/
 .section11 h2 {
   color: #333;
+  text-align: center;
 }
 .section11 div[column='3'] span.icon {
   background: url('../img/icon-green-on-white-90.jpg') no-repeat;
