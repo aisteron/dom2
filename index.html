@@ -505,7 +505,7 @@ function jqloaded()
 {
   console.log('fired! set u script there');
   //$('#mh1').css('display','block');
-  $('.wrum').css('visibility','visible');
+  $('.wrum').css('display','block');
   $('.wrum').css('z-index', '1301');
   $('.ltel button').click(function(){
     window.location.href='#mh1';
@@ -543,7 +543,7 @@ $(document).on('submit', '.gopro', function(e){
 
   
    <!--попап mh1-->
-<div class="wrum" style='visibility: hidden;'>
+<div class="wrum" style='display:none'>
   <div id="mh1" class="modal modal--flat">
     <div class="modal-container">
       <div class="modal-header">
